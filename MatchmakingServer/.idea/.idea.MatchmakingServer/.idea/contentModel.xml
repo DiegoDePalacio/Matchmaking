@@ -127,15 +127,6 @@
               </e>
             </e>
           </e>
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="Networking" t="Include">
-            <e p="CustomMsgType.cs" t="Include" />
-            <e p="ScriptableObjects" t="Include">
-              <e p="ServerConfiguration.cs" t="Include" />
-            </e>
-            <e p="Server.cs" t="Include" />
-          </e>
           <e p="TextMesh Pro" t="Include">
             <e p="Fonts" t="Include">
               <e p="LiberationSans - OFL.txt" t="Include" />
@@ -165,6 +156,27 @@
             </e>
             <e p="Sprites" t="Include">
               <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Networking" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CustomMsgType.cs" t="Include" />
+            <e p="ScriptableObjects" t="Include">
+              <e p="ServerConfiguration.cs" t="Include" />
+            </e>
+            <e p="ServerNetworkManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UI" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="MatchList.cs" t="Include" />
+            <e p="MatchListElement.cs" t="Include" />
+            <e p="PlayerList.cs" t="Include" />
+            <e p="PlayerListElement.cs" t="Include" />
+            <e p="ServerMenuUI.cs" t="Include" />
+            <e p="Templates" t="Include">
+              <e p="ListWithPoolTemplate.cs" t="Include" />
             </e>
           </e>
         </e>
