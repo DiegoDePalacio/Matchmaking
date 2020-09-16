@@ -8,7 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ClientConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Networking/Client.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ClientConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/25/4979f920/NetworkMessage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/47/d80bfff4/NetworkClient.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -18,8 +19,8 @@
         <option value="$PROJECT_DIR$/Assets/ServerClient_Setup/Scripts/ServerHUD.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MessageType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Client.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ClientConfiguration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Client.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ClientConfiguration.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600084357299</updated>
       <workItem from="1600084368270" duration="7577000" />
-      <workItem from="1600142678904" duration="1982000" />
+      <workItem from="1600142678904" duration="2416000" />
     </task>
     <servers />
   </component>
