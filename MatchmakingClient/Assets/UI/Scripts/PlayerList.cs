@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Server.Data;
 using UnityEngine;
 
 namespace Client.UI
@@ -17,7 +18,11 @@ namespace Client.UI
         [SerializeField] private List<PlayerListElement> m_AvailableElements = new List<PlayerListElement>();
         [SerializeField] private List<PlayerListElement> m_UsedElements = new List<PlayerListElement>();
 
-        public PlayerListElement AddPlayer(string name, int category, int rating)
+        // Names of the players are the keys
+        private Dictionary<string, PlayerListElement> m_Elements = new Dictionary<string, PlayerListElement>();
+        public Dictionary<string, PlayerListElement> Elements => m_Elements;
+        
+        public PlayerListElement AddPlayer(Player playerData)
         {
             if (m_AvailableElements.Count == 0)
             {
@@ -28,17 +33,23 @@ namespace Client.UI
                 IncreaseListPool();
             }
 
-            var newPlayer = m_AvailableElements[0];
-            m_AvailableElements.RemoveAt(0);
+            var playerName = playerData.Data.Name;
+            if (m_Elements.ContainsKey(playerName))
+            {
+                return m_Elements[playerName];
+            }
+            else
+            {
+                var playerListElement = m_AvailableElements[0];
+                m_AvailableElements.RemoveAt(0);
+                m_Elements.Add(playerData.Data.Name, playerListElement);
 
-            newPlayer.PlayerName = name;
-            newPlayer.Category = category.ToString();
-            newPlayer.Rating = rating.ToString();
+                playerListElement.SetPlayerData(playerData);
+                m_UsedElements.Add(playerListElement);
+                playerListElement.gameObject.SetActive(true);
 
-            m_UsedElements.Add(newPlayer);
-            newPlayer.gameObject.SetActive(true);
-
-            return newPlayer;
+                return playerListElement;
+            }
         }
 
         public void RemovePlayer(PlayerListElement playerToRemove)
@@ -50,9 +61,16 @@ namespace Client.UI
                 return;
             }
 
-            m_UsedElements.Remove(playerToRemove);
-            playerToRemove.gameObject.SetActive(false);
-            m_AvailableElements.Add(playerToRemove);
+            var playerName = playerToRemove.PlayerName;
+
+            if (m_Elements.ContainsKey(playerName))
+            {
+                m_Elements.Remove(playerName);
+                playerToRemove.OnButtonClickCallback = null;
+                m_UsedElements.Remove(playerToRemove);
+                playerToRemove.gameObject.SetActive(false);
+                m_AvailableElements.Add(playerToRemove);
+            }
         }
 
 #if UNITY_EDITOR
@@ -73,7 +91,16 @@ namespace Client.UI
         [ContextMenu("[TEST] Add Dummy Player")]
         public void TestAddDummyPlayer()
         {
-            m_TestDummyPlayerListElement = AddPlayer("Arpad Elo", 13, 2899);
+            m_TestDummyPlayerListElement = AddPlayer(new Player
+            {
+                Data = new PlayerBasicData
+                {
+                    Name = "Arpad Elo", 
+                    Category = 13,
+                    Rating = 2899
+                },
+                State = PlayerState.Active
+            });
         }
 
         [ContextMenu("[TEST] Remove Dummy Player")]

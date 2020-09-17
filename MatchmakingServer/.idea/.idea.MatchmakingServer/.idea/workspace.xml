@@ -22,102 +22,22 @@
     <list default="true" id="6b6064d3-65e5-4e69-acc6-48cc7e779067" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking/Client.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking/Client.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking/CustomMsgType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking/CustomMsgType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking/ScriptableObjects/ClientConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/Networking/ScriptableObjects/ClientConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/CustomMsgType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/CustomMsgType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ServerConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ServerConfiguration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Server.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Server.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,12 +50,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/08/086d1fe0/StringMessage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/8f/ecfef453/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/08/086d1fe0/StringMessage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38B19601-63D5-404A-ACB4-C5CCCDE2E18B/c4/6d1cb868/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,15 +74,25 @@
         <option value="$PROJECT_DIR$/Assets/Networking/ScriptableObjects/ServerConfiguration.cs" />
         <option value="$PROJECT_DIR$/Assets/Networking/Server.cs" />
         <option value="$PROJECT_DIR$/Assets/Networking/ServerNetworkManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElementTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/Templates/PlayerListElementTemplate.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersFromJson.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" />
+        <option value="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/ColorGradient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerOriginalData.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" />
       </list>
     </option>
   </component>
@@ -168,6 +103,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29993778" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -188,10 +125,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="37408">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="37408" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -210,7 +147,8 @@
       <workItem from="1600142289193" duration="26000" />
       <workItem from="1600142364862" duration="2721000" />
       <workItem from="1600245646288" duration="136000" />
-      <workItem from="1600247188126" duration="6227000" />
+      <workItem from="1600247188126" duration="12840000" />
+      <workItem from="1600337638156" duration="15572000" />
     </task>
     <servers />
   </component>
@@ -235,9 +173,82 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="474" y="354" width="732" height="490" key="find.popup" timestamp="1600261548025">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state width="492" height="464" key="DebuggerActiveHint" timestamp="1600360290049">
+      <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
+    <state width="492" height="464" key="DebuggerActiveHint/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360290049" />
+    <state width="1638" height="341" key="GridCell.Tab.0.bottom" timestamp="1600360248421">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.0.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248421" />
+    <state width="1638" height="341" key="GridCell.Tab.0.center" timestamp="1600360248420">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.0.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248420" />
+    <state width="1638" height="341" key="GridCell.Tab.0.left" timestamp="1600360248419">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.0.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248419" />
+    <state width="1638" height="341" key="GridCell.Tab.0.right" timestamp="1600360248420">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.0.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248420" />
+    <state width="1638" height="341" key="GridCell.Tab.1.bottom" timestamp="1600360257352">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.1.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257352" />
+    <state width="1638" height="341" key="GridCell.Tab.1.center" timestamp="1600360257352">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.1.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257352" />
+    <state width="1638" height="341" key="GridCell.Tab.1.left" timestamp="1600360257351">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.1.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257351" />
+    <state width="1638" height="341" key="GridCell.Tab.1.right" timestamp="1600360257352">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.1.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257352" />
+    <state width="1638" height="341" key="GridCell.Tab.2.bottom" timestamp="1600360248338">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.2.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
+    <state width="1638" height="341" key="GridCell.Tab.2.center" timestamp="1600360248337">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.2.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248337" />
+    <state width="1638" height="341" key="GridCell.Tab.2.left" timestamp="1600360248337">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.2.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248337" />
+    <state width="1638" height="341" key="GridCell.Tab.2.right" timestamp="1600360248338">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.2.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
+    <state width="1638" height="341" key="GridCell.Tab.3.bottom" timestamp="1600360248339">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.3.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248339" />
+    <state width="1638" height="341" key="GridCell.Tab.3.center" timestamp="1600360248338">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.3.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
+    <state width="1638" height="341" key="GridCell.Tab.3.left" timestamp="1600360248338">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.3.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
+    <state width="1638" height="341" key="GridCell.Tab.3.right" timestamp="1600360248339">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="341" key="GridCell.Tab.3.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248339" />
+    <state x="2253" y="130" width="1480" height="749" key="VCS.FileHistoryDialog" timestamp="1600339845523">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state x="2253" y="130" width="1480" height="749" key="VCS.FileHistoryDialog/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600339845523" />
+    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600360121106">
+      <screen x="1680" y="-302" width="2560" height="1417" />
+    </state>
+    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360121106" />
     <state x="474" y="354" width="732" height="490" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1600261548025" />
   </component>
 </project>

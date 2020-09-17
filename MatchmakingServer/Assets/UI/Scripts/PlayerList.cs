@@ -1,23 +1,44 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using Server.Data;
+using UnityEngine;
 
 namespace Server.UI
 {
     public class PlayerList : ListWithPoolTemplate<PlayerListElement>
     {
-        public PlayerListElement AddPlayer(string name, int category, int rating)
+        private Dictionary<string, PlayerListElement> m_Elements = new Dictionary<string, PlayerListElement>();
+        public Dictionary<string, PlayerListElement> Elements => m_Elements;
+
+        public PlayerListElement AddPlayer(Player player)
         {
-            var newPlayer = AddElement();
-            newPlayer.PlayerName = name;
-            newPlayer.Category = category.ToString();
-            newPlayer.Rating = rating.ToString();
-            return newPlayer;
+            var playerName = player.Data.Name;
+            
+            if (m_Elements.ContainsKey(playerName))
+            {
+                return m_Elements[playerName];
+            }
+            else
+            {
+                var playerListElement = AddElement();
+                m_Elements.Add(playerName, playerListElement);
+                playerListElement.SetPlayerData(player);
+                return playerListElement;
+            }
         }
 
-        public void RemovePlayer(PlayerListElement playerListElement)
+        public bool RemovePlayer(string playerName)
         {
-            RemoveElement(playerListElement);
-        }
+            if (m_Elements.ContainsKey(playerName))
+            {
+                var playerListElement = m_Elements[playerName];
+                RemoveElement(playerListElement);
+                m_Elements.Remove(playerName);
+                return true;
+            }
 
+            return false;
+        }
+        
 #if UNITY_EDITOR
         // Unfortunately ContextMenu can't be included in generic classes
         [ContextMenu("Increase List Pool")]
@@ -27,18 +48,28 @@ namespace Server.UI
         }
         
 #region Tests
-        private PlayerListElement m_TestDummyPlayer;
+        private Player m_TestDummyPlayer;
 
         [ContextMenu("[TEST] Add Dummy Player")]
         public void TestAddDummyPlayer()
         {
-            m_TestDummyPlayer = AddPlayer("Arpad Elo", 13, 2899);
+            m_TestDummyPlayer = new Player 
+            {
+                Data = new PlayerBasicData
+                {
+                    Name = "Arpad Elo", 
+                    Category = 13,
+                    Rating = 2899
+                },
+                State = PlayerState.InLobby
+            };
+            AddPlayer(m_TestDummyPlayer);
         }
 
         [ContextMenu("[TEST] Remove Dummy Player")]
         public void TestRemoveDummyPlayer()
         {
-            RemovePlayer(m_TestDummyPlayer);
+            RemovePlayer(m_TestDummyPlayer.Data.Name);
         }
 #endregion
 #endif

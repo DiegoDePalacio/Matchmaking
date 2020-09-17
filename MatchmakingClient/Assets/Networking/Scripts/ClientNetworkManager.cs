@@ -12,13 +12,21 @@ namespace Client.Networking
         private NetworkClient m_Client = new NetworkClient();
         private int m_ServerConnectionId = -1;
 
+        // Sending the strings to not create an additional dependency in this class
+        public Action<string> OnReceivePlayerRatingCallback;
+        public Action<string> OnPlayerRemovedFromLobbyCallback;
+        
+        public Action<string> OnReceiveNotificationCallback;
+        
         private void Awake()
         {
             if (m_ClientConfiguration == null)
                 throw new NullReferenceException("There is no Server Configuration assigned!");
+
+            Application.runInBackground = true;
         }
 
-        void Start()
+        private void Start()
         {
             var config = new ConnectionConfig();
             config.AddChannel(QosType.Reliable);
@@ -33,42 +41,72 @@ namespace Client.Networking
             m_Client.RegisterHandler(MsgType.Disconnect, ClientDisconnected);
 
             // Custom receiving message handle
-            m_Client.RegisterHandler(CustomMsgType.String, ClientReceiveStringMessage);
+            m_Client.RegisterHandler((short)CustomMsgType.Notification, OnReceiveNotificationMessage);
+            m_Client.RegisterHandler((short)CustomMsgType.PlayerRating, OnReceivePlayerRatingMessage);
+            m_Client.RegisterHandler((short)CustomMsgType.PlayerUpdate, OnReceivePlayerUpdateMessage);
+            m_Client.RegisterHandler((short)CustomMsgType.PlayerRemovedFromLobby, OnPlayerRemovedFromLobby);
         }
 
-        private void ClientDisconnected(NetworkMessage netmsg)
+        private void ClientDisconnected(NetworkMessage networkMessage)
         {
             Debug.Log("ClientDisconnected");
-        }
-
-        private void ClientConnected(NetworkMessage netmsg)
-        {
-            Debug.Log("ClientConnected " + netmsg.conn.connectionId);
 
             StringMessage messageContainer = new StringMessage
             {
-                value = "Hello server!"
+                value = "Client Disconnected!"
             };
 
             // Say hi to the server when connected
-            m_Client.Send(CustomMsgType.String, messageContainer);
+            m_Client.Send((short)CustomMsgType.Notification, messageContainer);
         }
 
-        // Receive message
-        void ClientReceiveStringMessage(NetworkMessage netMsg)
+        private void ClientConnected(NetworkMessage networkMessage)
         {
-            var stringMsg = netMsg.ReadMessage<StringMessage>();
-            Debug.Log("Your message is " + stringMsg.value);
+            Debug.Log("ClientConnected " + networkMessage.conn.connectionId);
+
+            StringMessage messageContainer = new StringMessage
+            {
+                value = "Client Connected!"
+            };
+
+            m_Client.Send((short)CustomMsgType.Notification, messageContainer);
+        }
+
+        private void OnReceiveNotificationMessage(NetworkMessage networkMessage)
+        {
+            var stringMsg = networkMessage.ReadMessage<StringMessage>();
+            Debug.Log("OnReceiveNotificationMessage " + stringMsg.value);
+            OnReceiveNotificationCallback(stringMsg.value);
+        }
+
+        private void OnReceivePlayerRatingMessage(NetworkMessage networkMessage)
+        {
+            var stringMsg = networkMessage.ReadMessage<StringMessage>();
+            Debug.Log("OnReceivePlayerRatingMessage " + stringMsg.value);
+            OnReceivePlayerRatingCallback(stringMsg.value);
+        }
+
+        private void OnReceivePlayerUpdateMessage(NetworkMessage networkMessage)
+        {
+            var stringMsg = networkMessage.ReadMessage<StringMessage>();
+            Debug.Log("OnReceivePlayerUpdateMessage " + stringMsg.value);
         }
 
         // Send message to Client
-        public void OnClientSendStringMessage()
+        private void OnPlayerRemovedFromLobby(NetworkMessage networkMessage)
+        {
+            var stringMsg = networkMessage.ReadMessage<StringMessage>();
+            Debug.Log("OnPlayerRemovedFromLobby " + stringMsg.value);
+            OnPlayerRemovedFromLobbyCallback(stringMsg.value);
+        }
+
+        public void SendStringMessage(string message, CustomMsgType msgType)
         {
             StringMessage stringMsg = new StringMessage
             {
-                value = "Your message here, write what u wanna do"
+                value = message
             };
-            m_Client.Send(CustomMsgType.String, stringMsg);
+            m_Client.Send((short)msgType, stringMsg);
         }
         
 #region Tests
@@ -76,7 +114,7 @@ namespace Client.Networking
         [ContextMenu("[TEST] ClientSentStringMessage")]
         public void TestClientMessage()
         {
-            OnClientSendStringMessage();
+            SendStringMessage("Hello Server... Are you fine?", CustomMsgType.Notification);
         }
 #endif        
 #endregion

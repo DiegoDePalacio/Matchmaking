@@ -18,7 +18,7 @@ namespace Server.UI
         [SerializeField] protected List<T> m_AvailableElements = new List<T>();
         [SerializeField] protected List<T> m_UsedElements = new List<T>();
 
-        public T AddElement()
+        protected T AddElement()
         {
             if (m_AvailableElements.Count == 0)
             {
@@ -38,7 +38,7 @@ namespace Server.UI
             return newElement;
         }
 
-        public void RemoveElement(T elementToRemove)
+        protected void RemoveElement(T elementToRemove)
         {
             if (elementToRemove == default(PlayerListElement))
             {

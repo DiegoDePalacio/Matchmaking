@@ -2,8 +2,13 @@
 
 namespace Client.Networking
 {
-    public class CustomMsgType
+    public enum CustomMsgType : short
     {
-        public static short String = MsgType.Highest + 1;
+        Notification = MsgType.Highest + 1,
+        PlayerRating = MsgType.Highest + 2,
+        PlayerUpdate = MsgType.Highest + 3,
+        PlayerJoinsLobby = MsgType.Highest + 4,
+        PlayerLeavesLobby = MsgType.Highest + 5,
+        PlayerRemovedFromLobby = MsgType.Highest + 6
     }
 }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Server.Data;
+using UnityEngine;
 using TMPro;
 
 namespace Server.UI
@@ -6,27 +7,14 @@ namespace Server.UI
     public class PlayerListElement : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI m_PlayerName;
-
-        public string PlayerName
-        {
-            get => m_PlayerName.text;
-            set => m_PlayerName.text = value;
-        }
-
         [SerializeField] private TextMeshProUGUI m_Category;
-
-        public string Category
-        {
-            get => m_Category.text;
-            set => m_Category.text = value;
-        }
-
         [SerializeField] private TextMeshProUGUI m_Rating;
 
-        public string Rating
+        public void SetPlayerData(Player player)
         {
-            get => m_Rating.text;
-            set => m_Rating.text = value;
+            m_PlayerName.text = player.Data.Name;
+            m_Category.text = player.Data.Category.ToString();
+            m_Rating.text = player.Data.Rating.ToString();
         }
     }
 }
