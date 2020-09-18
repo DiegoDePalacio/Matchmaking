@@ -1,14 +1,15 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using Server.Data;
+using UnityEngine;
 
 namespace Server.UI
 {
     public class MatchList : ListWithPoolTemplate<MatchListElement>
     {
-        public MatchListElement AddMatch(string firstTeamNames, string secondTeamNames)
+        public MatchListElement AddMatch(MatchData matchData)
         {
             var newMatch = AddElement();
-            newMatch.FirstTeamNames = firstTeamNames;
-            newMatch.SecondTeamNames = secondTeamNames;
+            newMatch.SetMatch(matchData);
             return newMatch;
         }
 
@@ -31,7 +32,51 @@ namespace Server.UI
         [ContextMenu("[TEST] Add Dummy Match")]
         public void TestAddDummyMatch()
         {
-            m_TestDummyMatch = AddMatch("Sid Meier, John Romero, Satoshi Tajiri", "Markus Persson, Tim Schafer, Yu Suzuki");
+            m_TestDummyMatch = AddMatch(new MatchData
+            {
+                TeamA = new List<PlayerBasicData>(new PlayerBasicData[]
+                {
+                    new PlayerBasicData
+                    {
+                        Category = 13,
+                        Name = "Sid Meier",
+                        Rating = 2899
+                    },
+                    new PlayerBasicData
+                    {
+                        Category = 12,
+                        Name = "John Romero",
+                        Rating = 2350
+                    },
+                    new PlayerBasicData
+                    {
+                        Category = 13,
+                        Name = "Satoshi Tajiri",
+                        Rating = 2850
+                    }
+                }),
+                TeamB = new List<PlayerBasicData>(new PlayerBasicData[]
+                {
+                    new PlayerBasicData
+                    {
+                        Category = 13,
+                        Name = "Markus Persson",
+                        Rating = 2800
+                    },
+                    new PlayerBasicData
+                    {
+                        Category = 12,
+                        Name = "Tim Schafer",
+                        Rating = 2399
+                    },
+                    new PlayerBasicData
+                    {
+                        Category = 13,
+                        Name = "Yu Suzuki",
+                        Rating = 2888
+                    }
+                })
+            });
         }
 
         [ContextMenu("[TEST] Remove Dummy Player")]

@@ -46,7 +46,7 @@ namespace Client.UI
 
             switch (playerData.State)
             {
-                case PlayerState.Active:
+                case PlayerState.Inactive:
                     SetButtonAction(ButtonState.Join);
                     break;
                 case PlayerState.InLobby:
@@ -62,13 +62,16 @@ namespace Client.UI
         
         private void OnButtonClick()
         {
-            if (OnButtonClickCallback != null)
-                OnButtonClickCallback(this);
-            
+            OnButtonClickCallback?.Invoke(this);
+
             if (m_Action == ButtonState.Join)
+            {
                 SetButtonAction(ButtonState.Drop);
+            }
             else if (m_Action == ButtonState.Drop)
+            {
                 SetButtonAction(ButtonState.Join);
+            }                
         }
 
         public void SetButtonAction(ButtonState action)

@@ -12,10 +12,15 @@ namespace Client.Networking
         private NetworkClient m_Client = new NetworkClient();
         private int m_ServerConnectionId = -1;
 
-        // Sending the strings to not create an additional dependency in this class
+        // The string is the PlayerBasicData in Json string (instead of PlayerBasicData) to not create an additional dependency in this class
+        public Action<string> OnPlayerUpdateAfterMatchCallback;
+        
+        // The string is the Name of the Player
         public Action<string> OnReceivePlayerRatingCallback;
         public Action<string> OnPlayerRemovedFromLobbyCallback;
+        public Action<string> OnPlayerOnMatchCallback;
         
+        // The string is the body of the Notification
         public Action<string> OnReceiveNotificationCallback;
         
         private void Awake()
@@ -43,8 +48,9 @@ namespace Client.Networking
             // Custom receiving message handle
             m_Client.RegisterHandler((short)CustomMsgType.Notification, OnReceiveNotificationMessage);
             m_Client.RegisterHandler((short)CustomMsgType.PlayerRating, OnReceivePlayerRatingMessage);
-            m_Client.RegisterHandler((short)CustomMsgType.PlayerUpdate, OnReceivePlayerUpdateMessage);
+            m_Client.RegisterHandler((short)CustomMsgType.PlayerUpdateAfterMatch, OnReceivePlayerUpdateMessage);
             m_Client.RegisterHandler((short)CustomMsgType.PlayerRemovedFromLobby, OnPlayerRemovedFromLobby);
+            m_Client.RegisterHandler((short)CustomMsgType.PlayerOnMatch, OnPlayerOnMatch);
         }
 
         private void ClientDisconnected(NetworkMessage networkMessage)
@@ -76,20 +82,21 @@ namespace Client.Networking
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();
             Debug.Log("OnReceiveNotificationMessage " + stringMsg.value);
-            OnReceiveNotificationCallback(stringMsg.value);
+            OnReceiveNotificationCallback?.Invoke(stringMsg.value);
         }
 
         private void OnReceivePlayerRatingMessage(NetworkMessage networkMessage)
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();
             Debug.Log("OnReceivePlayerRatingMessage " + stringMsg.value);
-            OnReceivePlayerRatingCallback(stringMsg.value);
+            OnReceivePlayerRatingCallback?.Invoke(stringMsg.value);
         }
 
         private void OnReceivePlayerUpdateMessage(NetworkMessage networkMessage)
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();
             Debug.Log("OnReceivePlayerUpdateMessage " + stringMsg.value);
+            OnPlayerUpdateAfterMatchCallback?.Invoke(stringMsg.value);
         }
 
         // Send message to Client
@@ -97,7 +104,14 @@ namespace Client.Networking
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();
             Debug.Log("OnPlayerRemovedFromLobby " + stringMsg.value);
-            OnPlayerRemovedFromLobbyCallback(stringMsg.value);
+            OnPlayerRemovedFromLobbyCallback?.Invoke(stringMsg.value);
+        }
+
+        private void OnPlayerOnMatch(NetworkMessage networkMessage)
+        {
+            var stringMsg = networkMessage.ReadMessage<StringMessage>();
+            Debug.Log("OnPlayerOnMatch " + stringMsg.value);
+            OnPlayerOnMatchCallback?.Invoke(stringMsg.value);
         }
 
         public void SendStringMessage(string message, CustomMsgType msgType)

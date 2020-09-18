@@ -11,13 +11,16 @@ namespace Server.Networking
         [SerializeField] private ServerConfiguration m_ServerConfiguration = null;
 
         private List<int> m_ConnectionIds = new List<int>();
+        public bool AreClientsConnected => (m_ConnectionIds.Count > 0);
 
+        // The int is the connection ID
         public Action<int> OnClientConnectedCallback;
         
-        // Sending the strings to not create an additional dependency in this class
+        // The string is the Name of the player
         public Action<string> OnPlayerJoinsCallback;
         public Action<string> OnPlayerLeavesCallback;
 
+        // The string is the notification body
         public Action<string> OnReceiveNotificationCallback;
 
         private void Awake()
@@ -64,7 +67,9 @@ namespace Server.Networking
 
         private void OnClientDisconnected(NetworkMessage networkMessage)
         {
+            var connId = networkMessage.conn.connectionId;
             Debug.Log("OnClientDisconnected");
+            m_ConnectionIds.Remove(connId);
         }
 
         private void OnClientConnected(NetworkMessage networkMessage)
@@ -76,28 +81,28 @@ namespace Server.Networking
             // This sends a message to a specific client, using the connectionId
            SendMessageToClient(connId, "Client connected!", CustomMsgType.Notification);
 
-           OnClientConnectedCallback(connId);
-           OnReceiveNotificationCallback("Client connected!");
+           OnClientConnectedCallback?.Invoke(connId);
+           OnReceiveNotificationCallback?.Invoke("Client connected!");
         }
 
         private void OnReceiveNotificationMessage(NetworkMessage networkMessage)
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();
             Debug.Log("OnReceiveNotificationMessage: " + stringMsg.value);
-            OnReceiveNotificationCallback(stringMsg.value);
+            OnReceiveNotificationCallback?.Invoke(stringMsg.value);
         }
 
         private void OnReceivePlayerJoinsLobbyMessage(NetworkMessage networkMessage)
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();
-            OnPlayerJoinsCallback(stringMsg.value);
+            OnPlayerJoinsCallback?.Invoke(stringMsg.value);
             Debug.Log("OnReceivePlayerJoinsLobbyMessage: " + stringMsg.value);
         }
 
         private void OnReceivePlayerLeavesLobbyMessage(NetworkMessage networkMessage)
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();
-            OnPlayerLeavesCallback(stringMsg.value);
+            OnPlayerLeavesCallback?.Invoke(stringMsg.value);
             Debug.Log("OnReceivePlayerLeavesLobbyMessage: " + stringMsg.value);
         }
 

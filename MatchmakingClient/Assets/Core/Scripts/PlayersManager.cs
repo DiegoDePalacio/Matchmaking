@@ -28,20 +28,43 @@ namespace Client.Core
             m_ClientNetworkManager.OnReceivePlayerRatingCallback += OnReceivePlayersRatings;
             m_ClientNetworkManager.OnReceiveNotificationCallback += OnReceiveNotification;
             m_ClientNetworkManager.OnPlayerRemovedFromLobbyCallback += OnPlayerRemovedFromLobby;
+            m_ClientNetworkManager.OnPlayerOnMatchCallback += OnPlayerOnMatch;
+            m_ClientNetworkManager.OnPlayerUpdateAfterMatchCallback += OnPlayerUpdateAfterAMatch;
         }
 
         private void OnDisable()
         {
+            m_ClientNetworkManager.OnPlayerUpdateAfterMatchCallback -= OnPlayerUpdateAfterAMatch;
+            m_ClientNetworkManager.OnPlayerOnMatchCallback -= OnPlayerOnMatch;
             m_ClientNetworkManager.OnPlayerRemovedFromLobbyCallback -= OnPlayerRemovedFromLobby;
             m_ClientNetworkManager.OnReceiveNotificationCallback -= OnReceiveNotification;
             m_ClientNetworkManager.OnReceivePlayerRatingCallback -= OnReceivePlayersRatings;
+        }
+
+        private void OnPlayerUpdateAfterAMatch(string playerJson)
+        {
+            var playerData = JsonUtility.FromJson<PlayerBasicData>(playerJson);
+            var playerName = playerData.Name;
+            
+            m_Players[playerName].Data = playerData;
+            m_Players[playerName].State = PlayerState.Inactive;
+            
+            var playerListElement = m_ClientMenuUI.PlayerList.Elements[playerName];
+            playerListElement.SetPlayerData(m_Players[playerName]);
+        }
+
+        private void OnPlayerOnMatch(string playerName)
+        {
+            var playerListElement = m_ClientMenuUI.PlayerList.Elements[playerName];
+            playerListElement.SetButtonAction(PlayerListElement.ButtonState.Playing);
+            m_Players[playerName].State = PlayerState.Playing;
         }
 
         private void OnPlayerRemovedFromLobby(string playerName)
         {
             var playerListElement = m_ClientMenuUI.PlayerList.Elements[playerName];
             playerListElement.SetButtonAction(PlayerListElement.ButtonState.Join);
-            m_Players[playerName].State = PlayerState.Active;
+            m_Players[playerName].State = PlayerState.Inactive;
         }
 
         private void OnReceiveNotification(string notification)

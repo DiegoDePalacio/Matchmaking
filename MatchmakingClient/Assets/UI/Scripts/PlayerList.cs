@@ -99,7 +99,7 @@ namespace Client.UI
                     Category = 13,
                     Rating = 2899
                 },
-                State = PlayerState.Active
+                State = PlayerState.Inactive
             });
         }
 

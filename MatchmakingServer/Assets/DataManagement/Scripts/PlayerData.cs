@@ -13,7 +13,7 @@ namespace Server.Data
 
     public enum PlayerState
     {
-        Active,
+        Inactive,
         InLobby,
         Playing
     }

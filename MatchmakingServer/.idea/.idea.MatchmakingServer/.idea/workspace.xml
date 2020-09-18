@@ -20,25 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b6064d3-65e5-4e69-acc6-48cc7e779067" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement/Scripts/PlayerBasicData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement/Scripts/PlayerBasicData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/8f/ecfef453/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,22 +75,28 @@
         <option value="$PROJECT_DIR$/Assets/Networking/ServerNetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElementTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/Templates/PlayerListElementTemplate.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersFromJson.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" />
         <option value="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/ColorGradient.cs" />
-        <option value="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerOriginalData.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs" />
-        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingBigTeams.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" />
       </list>
     </option>
@@ -103,8 +108,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29993778" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.2734793" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.23454988" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -148,7 +153,7 @@
       <workItem from="1600142364862" duration="2721000" />
       <workItem from="1600245646288" duration="136000" />
       <workItem from="1600247188126" duration="12840000" />
-      <workItem from="1600337638156" duration="15572000" />
+      <workItem from="1600337638156" duration="30829000" />
     </task>
     <servers />
   </component>
@@ -177,78 +182,78 @@
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state width="492" height="464" key="DebuggerActiveHint/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360290049" />
-    <state width="1638" height="341" key="GridCell.Tab.0.bottom" timestamp="1600360248421">
+    <state width="2086" height="341" key="GridCell.Tab.0.bottom" timestamp="1600410222250">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248421" />
-    <state width="1638" height="341" key="GridCell.Tab.0.center" timestamp="1600360248420">
+    <state width="2086" height="341" key="GridCell.Tab.0.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222250" />
+    <state width="2086" height="341" key="GridCell.Tab.0.center" timestamp="1600410222249">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248420" />
-    <state width="1638" height="341" key="GridCell.Tab.0.left" timestamp="1600360248419">
+    <state width="2086" height="341" key="GridCell.Tab.0.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222249" />
+    <state width="2086" height="341" key="GridCell.Tab.0.left" timestamp="1600410222248">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248419" />
-    <state width="1638" height="341" key="GridCell.Tab.0.right" timestamp="1600360248420">
+    <state width="2086" height="341" key="GridCell.Tab.0.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222248" />
+    <state width="2086" height="341" key="GridCell.Tab.0.right" timestamp="1600410222249">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248420" />
-    <state width="1638" height="341" key="GridCell.Tab.1.bottom" timestamp="1600360257352">
+    <state width="2086" height="341" key="GridCell.Tab.0.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222249" />
+    <state width="2086" height="341" key="GridCell.Tab.1.bottom" timestamp="1600410222251">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257352" />
-    <state width="1638" height="341" key="GridCell.Tab.1.center" timestamp="1600360257352">
+    <state width="2086" height="341" key="GridCell.Tab.1.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222251" />
+    <state width="2086" height="341" key="GridCell.Tab.1.center" timestamp="1600410222250">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257352" />
-    <state width="1638" height="341" key="GridCell.Tab.1.left" timestamp="1600360257351">
+    <state width="2086" height="341" key="GridCell.Tab.1.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222250" />
+    <state width="2086" height="341" key="GridCell.Tab.1.left" timestamp="1600410222250">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257351" />
-    <state width="1638" height="341" key="GridCell.Tab.1.right" timestamp="1600360257352">
+    <state width="2086" height="341" key="GridCell.Tab.1.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222250" />
+    <state width="2086" height="341" key="GridCell.Tab.1.right" timestamp="1600410222251">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360257352" />
-    <state width="1638" height="341" key="GridCell.Tab.2.bottom" timestamp="1600360248338">
+    <state width="2086" height="341" key="GridCell.Tab.1.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222251" />
+    <state width="2086" height="341" key="GridCell.Tab.2.bottom" timestamp="1600410222252">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.2.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
-    <state width="1638" height="341" key="GridCell.Tab.2.center" timestamp="1600360248337">
+    <state width="2086" height="341" key="GridCell.Tab.2.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222252" />
+    <state width="2086" height="341" key="GridCell.Tab.2.center" timestamp="1600410222252">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.2.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248337" />
-    <state width="1638" height="341" key="GridCell.Tab.2.left" timestamp="1600360248337">
+    <state width="2086" height="341" key="GridCell.Tab.2.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222252" />
+    <state width="2086" height="341" key="GridCell.Tab.2.left" timestamp="1600410222251">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.2.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248337" />
-    <state width="1638" height="341" key="GridCell.Tab.2.right" timestamp="1600360248338">
+    <state width="2086" height="341" key="GridCell.Tab.2.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222251" />
+    <state width="2086" height="341" key="GridCell.Tab.2.right" timestamp="1600410222252">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.2.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
-    <state width="1638" height="341" key="GridCell.Tab.3.bottom" timestamp="1600360248339">
+    <state width="2086" height="341" key="GridCell.Tab.2.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222252" />
+    <state width="2086" height="341" key="GridCell.Tab.3.bottom" timestamp="1600410222254">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.3.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248339" />
-    <state width="1638" height="341" key="GridCell.Tab.3.center" timestamp="1600360248338">
+    <state width="2086" height="341" key="GridCell.Tab.3.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222254" />
+    <state width="2086" height="341" key="GridCell.Tab.3.center" timestamp="1600410222253">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.3.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
-    <state width="1638" height="341" key="GridCell.Tab.3.left" timestamp="1600360248338">
+    <state width="2086" height="341" key="GridCell.Tab.3.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222253" />
+    <state width="2086" height="341" key="GridCell.Tab.3.left" timestamp="1600410222252">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.3.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248338" />
-    <state width="1638" height="341" key="GridCell.Tab.3.right" timestamp="1600360248339">
+    <state width="2086" height="341" key="GridCell.Tab.3.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222252" />
+    <state width="2086" height="341" key="GridCell.Tab.3.right" timestamp="1600410222253">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.3.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360248339" />
+    <state width="2086" height="341" key="GridCell.Tab.3.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410222253" />
     <state x="2253" y="130" width="1480" height="749" key="VCS.FileHistoryDialog" timestamp="1600339845523">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state x="2253" y="130" width="1480" height="749" key="VCS.FileHistoryDialog/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600339845523" />
-    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600360121106">
+    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600410768628">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600360121106" />
+    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600410768628" />
     <state x="474" y="354" width="732" height="490" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1600261548025" />
   </component>
 </project>

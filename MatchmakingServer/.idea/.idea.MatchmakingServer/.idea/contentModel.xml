@@ -7,11 +7,17 @@
       <e p="Assets" t="Include">
         <e p="Core" t="Include">
           <e p="Scripts" t="Include">
+            <e p="MatchmakingBigTeams.cs" t="Include" />
+            <e p="MatchmakingSmallTeams.cs" t="Include" />
             <e p="MatchManager.cs" t="Include" />
+            <e p="SimilarityByCategory.cs" t="Include" />
+            <e p="SimilarityByRating.cs" t="Include" />
+            <e p="UpdatePlayersRatings.cs" t="Include" />
           </e>
         </e>
         <e p="DataManagement" t="Include">
           <e p="Scripts" t="Include">
+            <e p="MatchData.cs" t="Include" />
             <e p="PlayerData.cs" t="Include" />
             <e p="PlayersData.cs" t="Include" />
             <e p="PlayersRatingsFromJson.cs" t="Include" />
