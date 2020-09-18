@@ -22,21 +22,14 @@
     <list default="true" id="5033c3af-adf0-445c-9e4f-d2acd5062e53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/ClientNetworkManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ServerNetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingBigTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingBigTeams.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/MatchData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/MatchData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchListElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/ServerMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/ServerMenuUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +79,7 @@
         <option value="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Networking/Scripts/ClientNetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" />
       </list>
     </option>
@@ -140,7 +134,7 @@
       <workItem from="1600084368270" duration="7577000" />
       <workItem from="1600142678904" duration="2416000" />
       <workItem from="1600250325459" duration="9408000" />
-      <workItem from="1600337719015" duration="23659000" />
+      <workItem from="1600337719015" duration="25623000" />
     </task>
     <servers />
   </component>
@@ -237,10 +231,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="100" y="155" width="1455" height="747" key="VCS.FileHistoryDialog/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1600411175013" />
-    <state x="473" y="143" width="765" height="492" key="find.popup" timestamp="1600410792604">
+    <state x="473" y="143" width="765" height="492" key="find.popup" timestamp="1600416447229">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="473" y="143" width="765" height="492" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1600410792604" />
+    <state x="473" y="143" width="765" height="492" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1600416447229" />
     <state x="855" y="269" width="765" height="493" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1600261539137" />
     <state x="2983" y="65" width="694" height="735" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@1680.-302.2560.1417" timestamp="1600091902391" />
   </component>

@@ -26,7 +26,7 @@ namespace Client.Core
         private void OnEnable()
         {
             m_ClientNetworkManager.OnReceivePlayerRatingCallback += OnReceivePlayersRatings;
-            m_ClientNetworkManager.OnReceiveNotificationCallback += OnReceiveNotification;
+            m_ClientNetworkManager.OnReceiveNotificationCallback += DisplayNotification;
             m_ClientNetworkManager.OnPlayerRemovedFromLobbyCallback += OnPlayerRemovedFromLobby;
             m_ClientNetworkManager.OnPlayerOnMatchCallback += OnPlayerOnMatch;
             m_ClientNetworkManager.OnPlayerUpdateAfterMatchCallback += OnPlayerUpdateAfterAMatch;
@@ -37,7 +37,7 @@ namespace Client.Core
             m_ClientNetworkManager.OnPlayerUpdateAfterMatchCallback -= OnPlayerUpdateAfterAMatch;
             m_ClientNetworkManager.OnPlayerOnMatchCallback -= OnPlayerOnMatch;
             m_ClientNetworkManager.OnPlayerRemovedFromLobbyCallback -= OnPlayerRemovedFromLobby;
-            m_ClientNetworkManager.OnReceiveNotificationCallback -= OnReceiveNotification;
+            m_ClientNetworkManager.OnReceiveNotificationCallback -= DisplayNotification;
             m_ClientNetworkManager.OnReceivePlayerRatingCallback -= OnReceivePlayersRatings;
         }
 
@@ -51,6 +51,8 @@ namespace Client.Core
             
             var playerListElement = m_ClientMenuUI.PlayerList.Elements[playerName];
             playerListElement.SetPlayerData(m_Players[playerName]);
+            
+            DisplayNotification("A match just finished and the players ratings was updated!");
         }
 
         private void OnPlayerOnMatch(string playerName)
@@ -67,7 +69,7 @@ namespace Client.Core
             m_Players[playerName].State = PlayerState.Inactive;
         }
 
-        private void OnReceiveNotification(string notification)
+        private void DisplayNotification(string notification)
         {
             m_ClientMenuUI.NotificationManager.titleObj.text = "Notification";
             m_ClientMenuUI.NotificationManager.descriptionObj.text = notification;

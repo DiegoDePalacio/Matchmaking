@@ -34,6 +34,7 @@ namespace Michsky.UI.ModernUIPack
         private SliderEvent onValueChanged = new SliderEvent();
         public UnityEvent onPointerEnter;
         public UnityEvent onPointerExit;
+        public UnityEvent onPointerUp;
 
         private GraphicRaycaster graphicRaycaster;
         private RectTransform hitRectTransform;
@@ -92,7 +93,10 @@ namespace Michsky.UI.ModernUIPack
         public void OnPointerUp(PointerEventData eventData)
         {
             if (HasValueChanged())
+            {
+                onPointerUp.Invoke();
                 SaveState();
+            }
 
             hitRectTransform = null;
             isPointerDown = false;

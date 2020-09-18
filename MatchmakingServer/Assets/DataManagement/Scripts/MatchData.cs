@@ -2,9 +2,9 @@
 
 namespace Server.Data
 {
-    public struct MatchData
+    public class MatchData
     {
-        public List<PlayerBasicData> TeamA;
-        public List<PlayerBasicData> TeamB;
+        public List<PlayerBasicData> TeamA = new List<PlayerBasicData>();
+        public List<PlayerBasicData> TeamB = new List<PlayerBasicData>();
     }
 }

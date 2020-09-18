@@ -65,8 +65,8 @@ namespace Server.UI
             var teamA = matchData.TeamA.Select(data => data.Name);
             var teamB = matchData.TeamB.Select(data => data.Name);
 
-            m_FirstTeamMembers.text = String.Join(", ", teamA);
-            m_SecondTeamMembers.text = String.Join(", ", teamB);
+            m_FirstTeamMembers.text = string.Join(", ", teamA);
+            m_SecondTeamMembers.text = string.Join(", ", teamB);
         }
     }
 }

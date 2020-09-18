@@ -62,17 +62,31 @@ namespace Server.Core
             m_ServerNetworkManager.OnClientConnectedCallback += OnClientConnected;
             m_ServerNetworkManager.OnPlayerJoinsCallback += OnPlayerJoins;
             m_ServerNetworkManager.OnPlayerLeavesCallback += OnPlayerLeaves;
-            m_ServerNetworkManager.OnReceiveNotificationCallback += OnReceiveNotification;
+            m_ServerNetworkManager.OnReceiveNotificationCallback += DisplayNotification;
             m_ServerMenuUI.MatchSizeInputField.onValueChanged.AddListener(OnTeamSizeChanged);
+            m_ServerMenuUI.MatchmakingByCategory.switchButton.onClick.AddListener(OnMatchMakingTypeChanged);
+            m_ServerMenuUI.Similarity.onPointerUp.AddListener(OnSimilarityChanged);
         }
 
         private void OnDisable()
         {
+            m_ServerMenuUI.Similarity.onPointerUp.RemoveListener(OnSimilarityChanged);
+            m_ServerMenuUI.MatchmakingByCategory.switchButton.onClick.RemoveListener(OnMatchMakingTypeChanged);
             m_ServerMenuUI.MatchSizeInputField.onValueChanged.RemoveListener(OnTeamSizeChanged);
-            m_ServerNetworkManager.OnReceiveNotificationCallback -= OnReceiveNotification;
+            m_ServerNetworkManager.OnReceiveNotificationCallback -= DisplayNotification;
             m_ServerNetworkManager.OnPlayerLeavesCallback -= OnPlayerLeaves;
             m_ServerNetworkManager.OnPlayerJoinsCallback -= OnPlayerJoins;
             m_ServerNetworkManager.OnClientConnectedCallback -= OnClientConnected;
+        }
+
+        private void OnMatchMakingTypeChanged()
+        {
+            RefreshState();
+        }
+
+        private void OnSimilarityChanged()
+        {
+            RefreshState();
         }
 
         private void OnTeamSizeChanged(string _notUsed)
@@ -80,7 +94,7 @@ namespace Server.Core
             RefreshState();
         }
 
-        private void OnReceiveNotification(string notification)
+        private void DisplayNotification(string notification)
         {
             m_ServerMenuUI.NotificationManager.titleObj.text = "Notification";
             m_ServerMenuUI.NotificationManager.descriptionObj.text = notification;
@@ -157,8 +171,8 @@ namespace Server.Core
                 playersInLobby.Add(m_PlayersData[playerListElement.Key].Data);
             }
             
-            // Sorting players by descending order. Statistically there are less experienced players than beginners (they are also
-            // the ones who are more likely to playing more our game), so lets try to find a match for them first
+            // Sorting players by rating in descending order to start trying to find a good match for the players with better rating first
+            // They're more likely to be more demanding in general, and they're also who are more likely to playing more our game
             playersInLobby.Sort((playerA, playerB) => playerB.Rating.CompareTo(playerA.Rating));
             
             // Only creating matches of players with closer rating between them 
@@ -167,16 +181,17 @@ namespace Server.Core
 
             for (var i = 0; i < maxSimilarityIterationCount; ++i)
             {
-                var playersToCompare = playersInLobby.GetRange(i, matchSize);
+                var playersOrderedByRating = playersInLobby.GetRange(i, matchSize);
                 
                 var similarity = (m_ServerMenuUI.MatchmakingByCategory.isOn
-                    ? SimilarityByCategory.GetSimilarity(playersToCompare)
-                    : SimilarityByRating.GetSimilarity(playersToCompare));
+                    ? SimilarityByCategory.GetSimilarity(playersOrderedByRating)
+                    : SimilarityByRating.GetSimilarity(playersOrderedByRating));
 
                 // If we found a very similar group of players to match
                 if (similarity > m_ServerMenuUI.Similarity.currentValue)
                 {
-                    CreateNewMatch(playersToCompare);
+                    DisplayNotification($"A new game just started with a similarity of {similarity:P2}!");
+                    CreateNewMatch(playersOrderedByRating);
                     m_SimilarityActualMax = 0f;
                     break;
                 }
@@ -229,7 +244,70 @@ namespace Server.Core
 
         private void RefreshSimilarityActualMaxText()
         {
-            m_ServerMenuUI.SimilarityActualMax.text = String.Format("Actual max: {0}", m_SimilarityActualMax.ToString("P2"));
+            m_ServerMenuUI.SimilarityActualMax.text = $"Actual max: {m_SimilarityActualMax:P2}";
         }
+
+#if UNITY_EDITOR
+#region Tests
+        [ContextMenu("[TEST] Test Matchmaking Small Teams")]
+        public void TestMatchmakingSmallTeams()
+        {
+            var playerList = new List<PlayerBasicData>(new PlayerBasicData[]
+            {
+                new PlayerBasicData
+                {
+                    Category = 13,
+                    Name = "Sid Meier",
+                    Rating = 1 // 2899
+                },
+                new PlayerBasicData
+                {
+                    Category = 12,
+                    Name = "John Romero",
+                    Rating = 4 // 2350
+                },
+                new PlayerBasicData
+                {
+                    Category = 13,
+                    Name = "Satoshi Tajiri",
+                    Rating = 8 // 2850
+                },
+                new PlayerBasicData
+                {
+                    Category = 13,
+                    Name = "Markus Persson",
+                    Rating = 9 // 2800
+                },
+                new PlayerBasicData
+                {
+                    Category = 12,
+                    Name = "Tim Schafer",
+                    Rating = 11 // 2399
+                },
+                new PlayerBasicData
+                {
+                    Category = 13,
+                    Name = "Yu Suzuki",
+                    Rating = 12 // 2888
+                }
+            });
+
+            playerList.Sort((playerA, playerB) => playerB.Rating.CompareTo(playerA.Rating));
+            MatchData matchData = MatchmakingSmallTeams.ArrangePlayers(playerList);
+            
+            Debug.Log("TeamA");
+            foreach (var playerBasicData in matchData.TeamA)
+            {
+                Debug.Log(playerBasicData.Rating);
+            }
+            
+            Debug.Log("TeamB");
+            foreach (var playerBasicData in matchData.TeamB)
+            {
+                Debug.Log(playerBasicData.Rating);
+            }
+        }
+#endregion
+#endif        
     }
 }
