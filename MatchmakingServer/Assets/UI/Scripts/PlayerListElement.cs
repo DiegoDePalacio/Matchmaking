@@ -1,8 +1,8 @@
-﻿using Server.Data;
+﻿using MM.Server.Data;
 using UnityEngine;
 using TMPro;
 
-namespace Server.UI
+namespace MM.Server.UI
 {
     public class PlayerListElement : MonoBehaviour
     {

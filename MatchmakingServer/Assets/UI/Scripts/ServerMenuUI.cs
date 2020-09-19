@@ -1,11 +1,15 @@
-﻿using Michsky.UI.ModernUIPack;
+﻿using System;
+using Michsky.UI.ModernUIPack;
+using MM.Server.Core;
 using TMPro;
 using UnityEngine;
 
-namespace Server.UI
+namespace MM.Server.UI
 {
     public class ServerMenuUI : MonoBehaviour
     {
+        [SerializeField] private DefaultMatchmakingUIParams m_MatchmakingDefaults;
+        
         [SerializeField] private TextMeshProUGUI m_WarningText;
         public TextMeshProUGUI WarningText => m_WarningText;
         
@@ -30,5 +34,19 @@ namespace Server.UI
 
         [SerializeField] private MatchList m_MatchList;
         public MatchList MatchList => m_MatchList;
+
+        private void Awake()
+        {
+            if (m_MatchmakingDefaults != null)
+            {
+                m_MatchSize.text = (m_MatchmakingDefaults.TeamSize > 0 
+                    ? m_MatchmakingDefaults.TeamSize.ToString() 
+                    : string.Empty);
+
+                m_MatchmakingByCategory.isOn = (m_MatchmakingDefaults.Matchmaking == MatchmakingType.ByCategory);
+
+                m_Similarity.currentValue = m_MatchmakingDefaults.MinSimilarityToMatchmake;
+            }
+        }
     }
 }

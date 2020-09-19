@@ -1,7 +1,7 @@
 ﻿using Michsky.UI.ModernUIPack;
 using UnityEngine;
 
-namespace Client.UI
+namespace MM.Client.UI
 {
     public class ClientMenuUI : MonoBehaviour
     {

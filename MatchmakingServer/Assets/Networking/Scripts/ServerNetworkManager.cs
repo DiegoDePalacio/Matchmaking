@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Networking.NetworkSystem;
 
-namespace Server.Networking
+namespace MM.Server.Networking
 {
     public class ServerNetworkManager : MonoBehaviour
     {

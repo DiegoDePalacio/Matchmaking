@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Networking.NetworkSystem;
 
-namespace Client.Networking
+namespace MM.Client.Networking
 {
     public class ClientNetworkManager : MonoBehaviour
     {

@@ -21,15 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5033c3af-adf0-445c-9e4f-d2acd5062e53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClientMain.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingBigTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingBigTeams.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/MatchData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/MatchData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchListElement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,10 +106,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="37420">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="37420" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -134,7 +127,7 @@
       <workItem from="1600084368270" duration="7577000" />
       <workItem from="1600142678904" duration="2416000" />
       <workItem from="1600250325459" duration="9408000" />
-      <workItem from="1600337719015" duration="25623000" />
+      <workItem from="1600337719015" duration="25872000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,7 @@
 using Server.Data;
 using UnityEngine;
 
-namespace Client.UI
+namespace MM.Client.UI
 {
     public class PlayerList : MonoBehaviour
     {

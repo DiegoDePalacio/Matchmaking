@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Server.Data
+namespace MM.Server.Data
 {
     public class MatchData
     {

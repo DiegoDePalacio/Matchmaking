@@ -22,14 +22,37 @@
     <list default="true" id="6b6064d3-65e5-4e69-acc6-48cc7e779067" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ScriptableObjects/ClientConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ScriptableObjects/ClientConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/ClientMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/ClientMenuUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingBigTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingBigTeams.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects/ServerConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects/ServerConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +63,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/8f/ecfef453/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/DefaultMatchmakingUIParams.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/08/086d1fe0/StringMessage.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,19 +104,24 @@
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" />
         <option value="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" />
         <option value="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/External/Modern UI Pack/Scripts/Slider/RadialSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingBigTeams.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/RatingConstants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/DefaultMatchmakingUIParams.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" />
       </list>
     </option>
@@ -126,10 +156,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="37408">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="37408" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -149,7 +179,8 @@
       <workItem from="1600142364862" duration="2721000" />
       <workItem from="1600245646288" duration="136000" />
       <workItem from="1600247188126" duration="12840000" />
-      <workItem from="1600337638156" duration="55553000" />
+      <workItem from="1600337638156" duration="56113000" />
+      <workItem from="1600488567916" duration="10042000" />
     </task>
     <servers />
   </component>
@@ -250,10 +281,10 @@
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state x="2774" y="-36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600433408660" />
-    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600434592870">
+    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600492284718">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600434592870" />
+    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600492284718" />
     <state x="474" y="354" width="732" height="490" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1600261548025" />
   </component>
   <component name="XDebuggerManager">
@@ -264,10 +295,10 @@
           <line>93</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" initialLine="92">
             <startOffsets>
-              <option value="3830" />
+              <option value="3836" />
             </startOffsets>
             <endOffsets>
-              <option value="3857" />
+              <option value="3863" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="17" />
@@ -277,10 +308,10 @@
           <line>108</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" initialLine="107">
             <startOffsets>
-              <option value="4440" />
+              <option value="4446" />
             </startOffsets>
             <endOffsets>
-              <option value="4459" />
+              <option value="4465" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />
@@ -290,10 +321,10 @@
           <line>51</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" initialLine="51">
             <startOffsets>
-              <option value="2137" />
+              <option value="2143" />
             </startOffsets>
             <endOffsets>
-              <option value="2170" />
+              <option value="2176" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />

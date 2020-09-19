@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Client.Networking
+namespace MM.Client.Networking
 {
     [CreateAssetMenu(fileName = "ClientConfiguration", menuName = "ScriptableObjects/ClientConfiguration", order = 1)]
     public class ClientConfiguration : ScriptableObject

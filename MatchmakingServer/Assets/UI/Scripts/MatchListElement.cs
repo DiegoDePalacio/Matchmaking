@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Server.Data;
+using MM.Server.Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Server.UI
+namespace MM.Server.UI
 {
     public class MatchListElement : MonoBehaviour
     {

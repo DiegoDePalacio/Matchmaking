@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Server.Data;
+using MM.Server.Data;
 using UnityEngine;
 
-namespace Server.Core
+namespace MM.Server.Core
 {
     // This algorithm finds the fairest distribution, but can becomes expensive for big team sizes
     // A detailed explanation of the algorithm can be found on the section "About splitting the

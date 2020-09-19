@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Server.UI
+namespace MM.Server.UI
 {
     public class ListWithPoolTemplate<T> : MonoBehaviour
         where T : MonoBehaviour

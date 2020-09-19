@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Server.Data;
-using Server.Networking;
-using Server.UI;
+using MM.Server.Data;
+using MM.Server.Networking;
+using MM.Server.UI;
 using UnityEngine;
 
-namespace Server.Core
+namespace MM.Server.Core
 {
     public class MatchManager : MonoBehaviour
     {
@@ -23,6 +23,9 @@ namespace Server.Core
         
         [Tooltip("Is not recommended to set this value higher than 5")]
         [SerializeField] private int m_MaxTeamSizeForAccurateMatchmaing;
+
+        [SerializeField] private EloRatingParameters EloRatingParameters;
+        [SerializeField] private RatingConstants RatingConstants;
         
         private Dictionary<string, Player> m_PlayersData = new Dictionary<string, Player>();
         private List<Player> m_PlayesInLobby = new List<Player>();
@@ -184,8 +187,8 @@ namespace Server.Core
                 var playersOrderedByRating = playersInLobby.GetRange(i, matchSize);
                 
                 var similarity = (m_ServerMenuUI.MatchmakingByCategory.isOn
-                    ? SimilarityByCategory.GetSimilarity(playersOrderedByRating)
-                    : SimilarityByRating.GetSimilarity(playersOrderedByRating));
+                    ? SimilarityByCategory.GetSimilarity(playersOrderedByRating, RatingConstants.MaxCategory)
+                    : SimilarityByRating.GetSimilarity(playersOrderedByRating, RatingConstants.MaxRating));
 
                 // If we found a very similar group of players to match
                 if (similarity > m_ServerMenuUI.Similarity.currentValue)
@@ -227,21 +230,28 @@ namespace Server.Core
         
         private void OnTeamAWins(MatchListElement matchListElement)
         {
-            var updatedPlayers = UpdatePlayersRatings.CalculateRatingsTeamAWins(matchListElement.MatchData);
+            var updatedPlayers = UpdatePlayersRatings.CalculateRatingsTeamAWins(
+                matchListElement.MatchData, EloRatingParameters.UpdateSpeed, EloRatingParameters.ScaleFactor);
 
-            for (var i = 0; i < updatedPlayers.Count; ++i)
+            for (var i = 0; i < updatedPlayers.TeamA.Count; ++i)
             {
-                var playerName = updatedPlayers[i].Name;
-                m_PlayersData[playerName].Data = updatedPlayers[i];
-                m_PlayersData[playerName].State = PlayerState.Inactive;
-
-                var playerJson = JsonUtility.ToJson(updatedPlayers[i]);
-                m_ServerNetworkManager.SendMessageToAll(playerJson, CustomMsgType.PlayerUpdateAfterMatch);
+                UpdatePlayeDataAfterMatch(updatedPlayers.TeamA[i]);
+                UpdatePlayeDataAfterMatch(updatedPlayers.TeamB[i]);
             }
             
             m_ServerMenuUI.MatchList.RemoveMatch(matchListElement);
         }
 
+        private void UpdatePlayeDataAfterMatch(PlayerBasicData playerData)
+        {
+            var playerName = playerData.Name;
+            m_PlayersData[playerName].Data = playerData;
+            m_PlayersData[playerName].State = PlayerState.Inactive;
+
+            var playerJson = JsonUtility.ToJson(playerData);
+            m_ServerNetworkManager.SendMessageToAll(playerJson, CustomMsgType.PlayerUpdateAfterMatch);
+        }
+        
         private void RefreshSimilarityActualMaxText()
         {
             m_ServerMenuUI.SimilarityActualMax.text = $"Actual max: {m_SimilarityActualMax:P2}";

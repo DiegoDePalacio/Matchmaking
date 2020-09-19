@@ -4,7 +4,7 @@ using Server.Data;
 using UnityEngine;
 using TMPro;
 
-namespace Client.UI
+namespace MM.Client.UI
 {
     public class PlayerListElement : MonoBehaviour
     {

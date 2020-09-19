@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Server.Data
+namespace MM.Server.Data
 {
     // IMPORTANT: Don't change this class, because needs to have the same structure as the JSON file where the data is extracted
     [Serializable]

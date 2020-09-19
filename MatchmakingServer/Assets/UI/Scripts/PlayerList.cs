@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Server.Data;
+using MM.Server.Data;
 using UnityEngine;
 
-namespace Server.UI
+namespace MM.Server.UI
 {
     public class PlayerList : ListWithPoolTemplate<PlayerListElement>
     {

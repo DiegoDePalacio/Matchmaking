@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Networking;
 
-namespace Client.Networking
+namespace MM.Client.Networking
 {
     public enum CustomMsgType : short
     {

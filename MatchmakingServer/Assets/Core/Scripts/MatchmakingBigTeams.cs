@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Server.Data;
+using MM.Server.Data;
 
-namespace Server.Core
+namespace MM.Server.Core
 {
     // This implementation is intended to distribute players in matches with a big number of players
     // It uses the Greedy algorithm. This heuristic approach does not find a best solution, but it terminates

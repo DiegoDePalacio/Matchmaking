@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Server.Data
+namespace MM.Server.Data
 {
     [Serializable]
     public class PlayersData

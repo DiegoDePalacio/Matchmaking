@@ -1,4 +1,4 @@
-﻿using Server.Data;
+﻿using MM.Server.Data;
 using UnityEngine;
 
 public class PlayersRatingsFromJson : MonoBehaviour

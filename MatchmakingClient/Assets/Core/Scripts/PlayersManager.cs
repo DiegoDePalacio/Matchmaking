@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Client.Networking;
-using Client.UI;
+using MM.Client.Networking;
+using MM.Client.UI;
 using Server.Data;
 using UnityEngine;
 
-namespace Client.Core
+namespace MM.Client.Core
 {
     public class PlayersManager : MonoBehaviour
     {
