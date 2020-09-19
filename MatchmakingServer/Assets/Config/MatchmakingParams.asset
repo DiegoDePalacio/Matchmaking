@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TeamSize: 2
   Matchmaking: 0
-  MinSimilarityToMatchmake: 0.5
+  MinSimilarityToMatchmake: 0.99
   MaxTeamSizeForAccurateMatchmake: 10

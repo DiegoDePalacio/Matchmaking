@@ -108,6 +108,7 @@ namespace MM.Server.Core
 
         private void OnTeamSizeChanged(string _notUsed)
         {
+            m_SimilarityChecked = false;
             RefreshState();
         }
 
@@ -203,6 +204,10 @@ namespace MM.Server.Core
             // Please read the "About grouping players for matchmaking" section of the README file for more information about it
             var maxSimilarityIterationCount = playerCount - matchSize + 1;
 
+            var matchFound = false;
+            
+            // TODO: Only check the group of players that includes the new player added, to avoid checking combinations that we already
+            // know that doesn't have enough similarity
             for (var i = 0; i < maxSimilarityIterationCount; ++i)
             {
                 var playersOrderedByRating = playersInLobby.GetRange(i, matchSize);
@@ -215,6 +220,7 @@ namespace MM.Server.Core
                 if (similarity * 100 > m_ServerMenuUI.Similarity.currentValue)
                 {
                     DisplayNotification($"A new game just started with a similarity of {similarity:P2}!");
+                    matchFound = true;
                     CreateNewMatch(playersOrderedByRating);
                     m_SimilarityActualMax = 0f;
                     break;
@@ -224,8 +230,12 @@ namespace MM.Server.Core
                     m_SimilarityActualMax = similarity;
                 }
             }
+
+            if (!matchFound)
+            {
+                m_SimilarityChecked = true;
+            }
             
-            m_SimilarityChecked = true;
             RefreshSimilarityActualMaxText();
             RefreshState();
         }
@@ -278,7 +288,7 @@ namespace MM.Server.Core
         
         private void RefreshSimilarityActualMaxText()
         {
-            m_ServerMenuUI.SimilarityActualMax.text = $"Current Similarity: {m_SimilarityActualMax:P2}";
+            m_ServerMenuUI.SimilarityActualMax.text = $"Current Similarity by {(m_ServerMenuUI.MatchmakingByCategory.isOn ? "Category" : "Rating")}: {m_SimilarityActualMax:P2}";
         }
 
 #if UNITY_EDITOR

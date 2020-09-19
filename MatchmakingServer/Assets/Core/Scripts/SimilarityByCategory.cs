@@ -6,7 +6,7 @@ namespace MM.Server.Core
 {
     public static class SimilarityByCategory
     {
-        private struct CategoryCount
+        private class CategoryCount
         {
             public int Category;
             public int Count;

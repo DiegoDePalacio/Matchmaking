@@ -21,31 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6b6064d3-65e5-4e69-acc6-48cc7e779067" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config/DefaultMatchmakingUIParams.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config/DefaultMatchmakingUIParams.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config/RatingConstants.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Config/RatingConstants.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config/RatingConstants.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Config/RatingConstants.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Config/MatchmakingParams.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Config/MatchmakingParams.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/DefaultMatchmakingUIParams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/DefaultMatchmakingUIParams.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Modern UI Pack/Scripts/Switch/SwitchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/Modern UI Pack/Scripts/Switch/SwitchManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/MatchListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Prefabs/MatchListElement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +163,7 @@
       <workItem from="1600245646288" duration="136000" />
       <workItem from="1600247188126" duration="12840000" />
       <workItem from="1600337638156" duration="56113000" />
-      <workItem from="1600488567916" duration="26865000" />
+      <workItem from="1600488567916" duration="29422000" />
     </task>
     <servers />
   </component>
@@ -207,74 +188,74 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="664" height="1055" key="DebuggerActiveHint" timestamp="1600519600638">
+    <state width="664" height="1055" key="DebuggerActiveHint" timestamp="1600528753903">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="664" height="1055" key="DebuggerActiveHint/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519600638" />
-    <state width="2086" height="389" key="GridCell.Tab.0.bottom" timestamp="1600519461952">
+    <state width="664" height="1055" key="DebuggerActiveHint/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600528753903" />
+    <state width="2086" height="389" key="GridCell.Tab.0.bottom" timestamp="1600527346613">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461952" />
-    <state width="2086" height="389" key="GridCell.Tab.0.center" timestamp="1600519461950">
+    <state width="2086" height="389" key="GridCell.Tab.0.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346613" />
+    <state width="2086" height="389" key="GridCell.Tab.0.center" timestamp="1600527346610">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461950" />
-    <state width="2086" height="389" key="GridCell.Tab.0.left" timestamp="1600519461948">
+    <state width="2086" height="389" key="GridCell.Tab.0.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346610" />
+    <state width="2086" height="389" key="GridCell.Tab.0.left" timestamp="1600527346609">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461948" />
-    <state width="2086" height="389" key="GridCell.Tab.0.right" timestamp="1600519461951">
+    <state width="2086" height="389" key="GridCell.Tab.0.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346609" />
+    <state width="2086" height="389" key="GridCell.Tab.0.right" timestamp="1600527346612">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461951" />
-    <state width="2086" height="389" key="GridCell.Tab.1.bottom" timestamp="1600519469210">
+    <state width="2086" height="389" key="GridCell.Tab.0.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346612" />
+    <state width="2086" height="389" key="GridCell.Tab.1.bottom" timestamp="1600527353712">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519469210" />
-    <state width="2086" height="389" key="GridCell.Tab.1.center" timestamp="1600519469207">
+    <state width="2086" height="389" key="GridCell.Tab.1.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353712" />
+    <state width="2086" height="389" key="GridCell.Tab.1.center" timestamp="1600527353710">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519469207" />
-    <state width="2086" height="389" key="GridCell.Tab.1.left" timestamp="1600519469206">
+    <state width="2086" height="389" key="GridCell.Tab.1.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353710" />
+    <state width="2086" height="389" key="GridCell.Tab.1.left" timestamp="1600527353709">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519469206" />
-    <state width="2086" height="389" key="GridCell.Tab.1.right" timestamp="1600519469208">
+    <state width="2086" height="389" key="GridCell.Tab.1.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353709" />
+    <state width="2086" height="389" key="GridCell.Tab.1.right" timestamp="1600527353711">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519469208" />
-    <state width="2086" height="389" key="GridCell.Tab.2.bottom" timestamp="1600519461755">
+    <state width="2086" height="389" key="GridCell.Tab.1.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353711" />
+    <state width="2086" height="389" key="GridCell.Tab.2.bottom" timestamp="1600527346336">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461755" />
-    <state width="2086" height="389" key="GridCell.Tab.2.center" timestamp="1600519461753">
+    <state width="2086" height="389" key="GridCell.Tab.2.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346336" />
+    <state width="2086" height="389" key="GridCell.Tab.2.center" timestamp="1600527346334">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461753" />
-    <state width="2086" height="389" key="GridCell.Tab.2.left" timestamp="1600519461752">
+    <state width="2086" height="389" key="GridCell.Tab.2.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346334" />
+    <state width="2086" height="389" key="GridCell.Tab.2.left" timestamp="1600527346333">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461752" />
-    <state width="2086" height="389" key="GridCell.Tab.2.right" timestamp="1600519461754">
+    <state width="2086" height="389" key="GridCell.Tab.2.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346333" />
+    <state width="2086" height="389" key="GridCell.Tab.2.right" timestamp="1600527346335">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461754" />
-    <state width="2086" height="389" key="GridCell.Tab.3.bottom" timestamp="1600519461759">
+    <state width="2086" height="389" key="GridCell.Tab.2.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346335" />
+    <state width="2086" height="389" key="GridCell.Tab.3.bottom" timestamp="1600527346341">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461759" />
-    <state width="2086" height="389" key="GridCell.Tab.3.center" timestamp="1600519461757">
+    <state width="2086" height="389" key="GridCell.Tab.3.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346341" />
+    <state width="2086" height="389" key="GridCell.Tab.3.center" timestamp="1600527346339">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461757" />
-    <state width="2086" height="389" key="GridCell.Tab.3.left" timestamp="1600519461756">
+    <state width="2086" height="389" key="GridCell.Tab.3.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346339" />
+    <state width="2086" height="389" key="GridCell.Tab.3.left" timestamp="1600527346337">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461756" />
-    <state width="2086" height="389" key="GridCell.Tab.3.right" timestamp="1600519461758">
+    <state width="2086" height="389" key="GridCell.Tab.3.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346337" />
+    <state width="2086" height="389" key="GridCell.Tab.3.right" timestamp="1600527346340">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600519461758" />
+    <state width="2086" height="389" key="GridCell.Tab.3.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346340" />
     <state x="2253" y="130" width="1480" height="749" key="VCS.FileHistoryDialog" timestamp="1600339845523">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
@@ -283,10 +264,10 @@
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state x="2774" y="-36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600433408660" />
-    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600527008179">
+    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600528041762">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527008179" />
+    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600528041762" />
     <state x="474" y="354" width="732" height="490" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1600261548025" />
   </component>
   <component name="XDebuggerManager">
@@ -343,58 +324,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" initialLine="21">
-            <startOffsets>
-              <option value="501" />
-            </startOffsets>
-            <endOffsets>
-              <option value="568" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs</url>
-          <line>12</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs" initialLine="12">
-            <startOffsets>
-              <option value="380" />
-            </startOffsets>
-            <endOffsets>
-              <option value="435" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs</url>
-          <line>98</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" initialLine="88">
-            <startOffsets>
-              <option value="4126" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4154" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs</url>
-          <line>214</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" initialLine="203">
-            <startOffsets>
-              <option value="8964" />
-            </startOffsets>
-            <endOffsets>
-              <option value="9026" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

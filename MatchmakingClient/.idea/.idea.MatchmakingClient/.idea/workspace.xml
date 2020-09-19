@@ -21,31 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5033c3af-adf0-445c-9e4f-d2acd5062e53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Networking/Scripts/ClientNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClientMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/DefaultMatchmakingUIParams.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/DefaultMatchmakingUIParams.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/RatingConstants.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/RatingConstants.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/RatingConstants.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/RatingConstants.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/MatchmakingParams.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/MatchmakingParams.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/DefaultMatchmakingUIParams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/DefaultMatchmakingUIParams.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/SimilarityByCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/SimilarityByCategory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/UpdatePlayersRatings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/UpdatePlayersRatings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/External/Modern UI Pack/Scripts/Switch/SwitchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/External/Modern UI Pack/Scripts/Switch/SwitchManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ServerNetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Prefabs/MatchListElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Prefabs/MatchListElement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/ServerMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/ServerMenuUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +132,7 @@
       <workItem from="1600142678904" duration="2416000" />
       <workItem from="1600250325459" duration="9408000" />
       <workItem from="1600337719015" duration="25872000" />
-      <workItem from="1600500446371" duration="7310000" />
+      <workItem from="1600500446371" duration="8444000" />
     </task>
     <servers />
   </component>
