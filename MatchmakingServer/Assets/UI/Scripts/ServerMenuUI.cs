@@ -8,7 +8,8 @@ namespace MM.Server.UI
 {
     public class ServerMenuUI : MonoBehaviour
     {
-        [SerializeField] private DefaultMatchmakingUIParams m_MatchmakingDefaults;
+        [SerializeField] private MatchmakingParams m_MatchmakingParams;
+        public MatchmakingParams MatchmakingParams => m_MatchmakingParams;
         
         [SerializeField] private TextMeshProUGUI m_WarningText;
         public TextMeshProUGUI WarningText => m_WarningText;
@@ -37,15 +38,15 @@ namespace MM.Server.UI
 
         private void Awake()
         {
-            if (m_MatchmakingDefaults != null)
+            if (m_MatchmakingParams != null)
             {
-                m_MatchSize.text = (m_MatchmakingDefaults.TeamSize > 0 
-                    ? m_MatchmakingDefaults.TeamSize.ToString() 
+                m_MatchSize.text = (m_MatchmakingParams.TeamSize > 0 
+                    ? m_MatchmakingParams.TeamSize.ToString() 
                     : string.Empty);
 
-                m_MatchmakingByCategory.isOn = (m_MatchmakingDefaults.Matchmaking == MatchmakingType.ByCategory);
+                m_MatchmakingByCategory.isOn = (m_MatchmakingParams.Matchmaking == MatchmakingType.ByCategory);
 
-                m_Similarity.currentValue = m_MatchmakingDefaults.MinSimilarityToMatchmake;
+                m_Similarity.currentValue = m_MatchmakingParams.MinSimilarityToMatchmake * 100;
             }
         }
     }

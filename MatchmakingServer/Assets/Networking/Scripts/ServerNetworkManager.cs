@@ -23,6 +23,8 @@ namespace MM.Server.Networking
         // The string is the notification body
         public Action<string> OnReceiveNotificationCallback;
 
+        public Action OnAllClientsDisconnectedCallback;
+        
         private void Awake()
         {
             if (m_ServerConfiguration == null)
@@ -70,6 +72,12 @@ namespace MM.Server.Networking
             var connId = networkMessage.conn.connectionId;
             Debug.Log("OnClientDisconnected");
             m_ConnectionIds.Remove(connId);
+
+            if (m_ConnectionIds.Count == 0)
+            {
+                OnAllClientsDisconnectedCallback();
+                OnReceiveNotificationCallback?.Invoke("No clients connected!");
+            }
         }
 
         private void OnClientConnected(NetworkMessage networkMessage)
@@ -91,7 +99,7 @@ namespace MM.Server.Networking
             Debug.Log("OnReceiveNotificationMessage: " + stringMsg.value);
             OnReceiveNotificationCallback?.Invoke(stringMsg.value);
         }
-
+        
         private void OnReceivePlayerJoinsLobbyMessage(NetworkMessage networkMessage)
         {
             var stringMsg = networkMessage.ReadMessage<StringMessage>();

@@ -8,11 +8,14 @@ namespace MM.Server.Core
         ByCategory = 1
     }
     
-    [CreateAssetMenu(fileName = "DefaultMatchmakingUIParams", menuName = "ScriptableObjects/DefaultMatchmakingUIParams", order = 1)]
-    public class DefaultMatchmakingUIParams : ScriptableObject
+    [CreateAssetMenu(fileName = "MatchmakingParams", menuName = "ScriptableObjects/MatchmakingParams", order = 1)]
+    public class MatchmakingParams : ScriptableObject
     {
         public int TeamSize = 5;
         public MatchmakingType Matchmaking = MatchmakingType.ByRating;
         public float MinSimilarityToMatchmake = 0.85f;
+
+        [Range(0, 10)]
+        public int MaxTeamSizeForAccurateMatchmake = 5;
     }    
 }

@@ -11,8 +11,8 @@
             <e p="MatchmakingSmallTeams.cs" t="Include" />
             <e p="MatchManager.cs" t="Include" />
             <e p="ScriptableObjects" t="Include">
-              <e p="DefaultMatchmakingUIParams.cs" t="Include" />
               <e p="EloRatingParameters.cs" t="Include" />
+              <e p="MatchmakingParams.cs" t="Include" />
               <e p="RatingConstants.cs" t="Include" />
             </e>
             <e p="SimilarityByCategory.cs" t="Include" />

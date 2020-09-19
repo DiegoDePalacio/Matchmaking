@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a825709e6d2d4cd4908063bbd501d1e, type: 3}
-  m_Name: DefaultMatchmakingUIParams
+  m_Name: MatchmakingParams
   m_EditorClassIdentifier: 
-  TeamSize: 5
+  TeamSize: 2
   Matchmaking: 0
-  MinSimilarityToMatchmake: 0.85
+  MinSimilarityToMatchmake: 0.5
+  MaxTeamSizeForAccurateMatchmake: 10

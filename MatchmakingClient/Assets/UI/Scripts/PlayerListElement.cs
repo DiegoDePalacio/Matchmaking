@@ -3,6 +3,7 @@ using Michsky.UI.ModernUIPack;
 using Server.Data;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 namespace MM.Client.UI
 {
@@ -20,8 +21,10 @@ namespace MM.Client.UI
         
         [SerializeField] private TextMeshProUGUI m_Category;
         [SerializeField] private TextMeshProUGUI m_Rating;
-        [SerializeField] private TextMeshProUGUI m_ButtonLabel;
         [SerializeField] private ButtonManagerBasic m_Button;
+        [SerializeField] private Image m_ButtonImage;
+        [SerializeField] private Color m_ButtonJoinColor;
+        [SerializeField] private Color m_ButtonDropColor;
         
         private ButtonState m_Action = ButtonState.Join;
         public ButtonState Action => m_Action;
@@ -76,25 +79,12 @@ namespace MM.Client.UI
 
         public void SetButtonAction(ButtonState action)
         {
-            switch (action)
-            {
-                case ButtonState.Join:
-                    m_Button.buttonText = "JOIN";
-                    m_Button.enabled = true;
-                    break;
-                case ButtonState.Drop:
-                    m_Button.buttonText = "DROP";
-                    m_Button.enabled = true;
-                    break;
-                case ButtonState.Playing:
-                    m_Button.buttonText = "PLAYING";
-                    m_Button.enabled = false;
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(action), action, null);
-            }
-
+            m_Button.buttonText = action.ToString().ToUpper();
+            m_Button.enabled = (action != ButtonState.Playing);
+            m_ButtonImage.color = (action == ButtonState.Join ? m_ButtonJoinColor : m_ButtonDropColor);
+            m_ButtonImage.enabled = m_Button.enabled;
             m_Button.UpdateUI();
+            
             m_Action = action;
         }
     }

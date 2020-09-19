@@ -31,7 +31,7 @@ namespace Michsky.UI.ModernUIPack
         public AudioClip hoverSound;
         public AudioClip clickSound;
 
-        void Start()
+        void Awake()
         {
             try
             {

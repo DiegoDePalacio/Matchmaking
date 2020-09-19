@@ -20,10 +20,6 @@ namespace MM.Server.Core
         [SerializeField] private ServerNetworkManager m_ServerNetworkManager;
         [SerializeField] private ServerMenuUI m_ServerMenuUI;
         [SerializeField] private PlayersRatingsFromJson m_PlayersRatingsFromJson;
-        
-        [Tooltip("Is not recommended to set this value higher than 5")]
-        [SerializeField] private int m_MaxTeamSizeForAccurateMatchmaing;
-
         [SerializeField] private EloRatingParameters EloRatingParameters;
         [SerializeField] private RatingConstants RatingConstants;
         
@@ -31,7 +27,8 @@ namespace MM.Server.Core
         private List<Player> m_PlayesInLobby = new List<Player>();
         
         private MatchMakeState m_MatchMakeState = MatchMakeState.NoTeamSize;
-        private float m_SimilarityActualMax;
+        private float m_SimilarityActualMax = 0;
+        private bool m_SimilarityChecked = false;
         
         private void Awake()
         {
@@ -60,12 +57,19 @@ namespace MM.Server.Core
             }
         }
 
+        private void Start()
+        {
+            RefreshState();
+        }
+
         private void OnEnable()
         {
             m_ServerNetworkManager.OnClientConnectedCallback += OnClientConnected;
             m_ServerNetworkManager.OnPlayerJoinsCallback += OnPlayerJoins;
             m_ServerNetworkManager.OnPlayerLeavesCallback += OnPlayerLeaves;
             m_ServerNetworkManager.OnReceiveNotificationCallback += DisplayNotification;
+            m_ServerNetworkManager.OnAllClientsDisconnectedCallback += OnAllClientsDiconnected;
+            
             m_ServerMenuUI.MatchSizeInputField.onValueChanged.AddListener(OnTeamSizeChanged);
             m_ServerMenuUI.MatchmakingByCategory.switchButton.onClick.AddListener(OnMatchMakingTypeChanged);
             m_ServerMenuUI.Similarity.onPointerUp.AddListener(OnSimilarityChanged);
@@ -76,19 +80,29 @@ namespace MM.Server.Core
             m_ServerMenuUI.Similarity.onPointerUp.RemoveListener(OnSimilarityChanged);
             m_ServerMenuUI.MatchmakingByCategory.switchButton.onClick.RemoveListener(OnMatchMakingTypeChanged);
             m_ServerMenuUI.MatchSizeInputField.onValueChanged.RemoveListener(OnTeamSizeChanged);
+            
+            m_ServerNetworkManager.OnAllClientsDisconnectedCallback -= OnAllClientsDiconnected;
             m_ServerNetworkManager.OnReceiveNotificationCallback -= DisplayNotification;
             m_ServerNetworkManager.OnPlayerLeavesCallback -= OnPlayerLeaves;
             m_ServerNetworkManager.OnPlayerJoinsCallback -= OnPlayerJoins;
             m_ServerNetworkManager.OnClientConnectedCallback -= OnClientConnected;
         }
 
+        private void OnAllClientsDiconnected()
+        {
+            RefreshState();
+        }
+
         private void OnMatchMakingTypeChanged()
         {
+            m_SimilarityActualMax = 0f;
+            m_SimilarityChecked = false;
             RefreshState();
         }
 
         private void OnSimilarityChanged()
         {
+            m_SimilarityChecked = false;
             RefreshState();
         }
 
@@ -99,8 +113,9 @@ namespace MM.Server.Core
 
         private void DisplayNotification(string notification)
         {
-            m_ServerMenuUI.NotificationManager.titleObj.text = "Notification";
-            m_ServerMenuUI.NotificationManager.descriptionObj.text = notification;
+            m_ServerMenuUI.NotificationManager.title = "Alert";
+            m_ServerMenuUI.NotificationManager.description = notification;
+            m_ServerMenuUI.NotificationManager.UpdateUI();
             m_ServerMenuUI.NotificationManager.OpenNotification();
         }
 
@@ -120,6 +135,7 @@ namespace MM.Server.Core
             var player = m_PlayersData[playerName];
             m_ServerMenuUI.PlayerList.AddPlayer(player);
             player.State = PlayerState.InLobby;
+            m_SimilarityChecked = false;
             RefreshState();
         }
 
@@ -152,14 +168,19 @@ namespace MM.Server.Core
             {
                 m_MatchMakeState = MatchMakeState.NotEnoughPlayers;
                 m_ServerMenuUI.WarningText.text = string.Empty;
-                m_ServerMenuUI.SimilarityActualMax.text = "<sprite=12> Not enough Players";
+
+                var missingPlayers = (m_ServerMenuUI.TeamSize * 2) - m_ServerMenuUI.PlayerList.Elements.Count;
+                m_ServerMenuUI.SimilarityActualMax.text = $"<sprite=12> Not enough Players. \nMissing {missingPlayers}";
             }
             else
             {
                 m_MatchMakeState = MatchMakeState.Ready;
                 m_ServerMenuUI.WarningText.text = string.Empty;
-                TryToMatchMake();
-                RefreshSimilarityActualMaxText();
+
+                if (!m_SimilarityChecked)
+                {
+                    TryToMatchMake();
+                }
             }
         }
 
@@ -191,7 +212,7 @@ namespace MM.Server.Core
                     : SimilarityByRating.GetSimilarity(playersOrderedByRating, RatingConstants.MaxRating));
 
                 // If we found a very similar group of players to match
-                if (similarity > m_ServerMenuUI.Similarity.currentValue)
+                if (similarity * 100 > m_ServerMenuUI.Similarity.currentValue)
                 {
                     DisplayNotification($"A new game just started with a similarity of {similarity:P2}!");
                     CreateNewMatch(playersOrderedByRating);
@@ -204,12 +225,14 @@ namespace MM.Server.Core
                 }
             }
             
+            m_SimilarityChecked = true;
+            RefreshSimilarityActualMaxText();
             RefreshState();
         }
 
         private void CreateNewMatch(List<PlayerBasicData> playersData)
         {
-            var matchData = (m_ServerMenuUI.TeamSize > m_MaxTeamSizeForAccurateMatchmaing
+            var matchData = (m_ServerMenuUI.TeamSize > m_ServerMenuUI.MatchmakingParams.MaxTeamSizeForAccurateMatchmake
                 ? MatchmakingBigTeams.ArrangePlayers(playersData)
                 : MatchmakingSmallTeams.ArrangePlayers(playersData));
 
@@ -230,8 +253,9 @@ namespace MM.Server.Core
         
         private void OnTeamAWins(MatchListElement matchListElement)
         {
-            var updatedPlayers = UpdatePlayersRatings.CalculateRatingsTeamAWins(
-                matchListElement.MatchData, EloRatingParameters.UpdateSpeed, EloRatingParameters.ScaleFactor);
+            var updatedPlayers = matchListElement.MatchData;
+
+            UpdatePlayersRatings.UpdateRatingsTeamAWins(ref updatedPlayers, RatingConstants, EloRatingParameters);
 
             for (var i = 0; i < updatedPlayers.TeamA.Count; ++i)
             {
@@ -254,7 +278,7 @@ namespace MM.Server.Core
         
         private void RefreshSimilarityActualMaxText()
         {
-            m_ServerMenuUI.SimilarityActualMax.text = $"Actual max: {m_SimilarityActualMax:P2}";
+            m_ServerMenuUI.SimilarityActualMax.text = $"Current Similarity: {m_SimilarityActualMax:P2}";
         }
 
 #if UNITY_EDITOR

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RatingConstants
   m_EditorClassIdentifier: 
   MaxRating: 2900
-  MaxCategory: 13
+  CategoryUpperLimit: c8000000900100005802000020030000e8030000b0040000780500004006000008070000d00700009808000060090000

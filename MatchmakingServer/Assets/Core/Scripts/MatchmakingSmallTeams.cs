@@ -50,9 +50,9 @@ namespace MM.Server.Core
             GetCloserSum(modifiedRatings, remainingPlayersToAdd, 0, halfTotalModifiedRatings, ref selectedIndices);
 
             matchData.TeamA.Add(worstPlayer);
-            playersOrderedByRating.RemoveAt(worstPlayerIndex);
 
-            for (var i = 0; i < playersOrderedByRating.Count; ++i)
+            // Not need to go the last element which is the worst player, because was already assigned to the Team A
+            for (var i = 0; i < playersOrderedByRating.Count - 1; ++i)
             {
                 if (selectedIndices.Contains(i))
                 {

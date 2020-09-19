@@ -71,8 +71,9 @@ namespace MM.Client.Core
 
         private void DisplayNotification(string notification)
         {
-            m_ClientMenuUI.NotificationManager.titleObj.text = "Notification";
-            m_ClientMenuUI.NotificationManager.descriptionObj.text = notification;
+            m_ClientMenuUI.NotificationManager.title = "Alert";
+            m_ClientMenuUI.NotificationManager.description = notification;
+            m_ClientMenuUI.NotificationManager.UpdateUI();
             m_ClientMenuUI.NotificationManager.OpenNotification();
         }
 

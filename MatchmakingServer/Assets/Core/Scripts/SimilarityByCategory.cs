@@ -17,7 +17,7 @@ namespace MM.Server.Core
             }
         }
         
-        public static float GetSimilarity(List<PlayerBasicData> playersOrderedByCategory, int maxCategory)
+        public static float GetSimilarity(List<PlayerBasicData> playersOrderedByCategory, float maxCategory)
         {
             var categoriesCount = GetCategoriesCount(playersOrderedByCategory);
             var playerCount = playersOrderedByCategory.Count;
@@ -31,7 +31,7 @@ namespace MM.Server.Core
                 
                 for (var j = 0; j < categoriesCount.Count; ++j)
                 {
-                    playerSimilarity += (1 - Mathf.Abs(playerCategory - categoriesCount[j].Category)) *
+                    playerSimilarity += (1 - (Mathf.Abs(playerCategory - categoriesCount[j].Category) / maxCategory)) *
                                         categoriesCount[j].Count;
                 }
 

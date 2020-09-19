@@ -62,8 +62,17 @@ namespace MM.Client.Networking
                 value = "Client Disconnected!"
             };
 
-            // Say hi to the server when connected
-            m_Client.Send((short)CustomMsgType.Notification, messageContainer);
+            OnReceiveNotificationCallback?.Invoke("Connection lost :( Closing the Client...");            
+            Invoke("CloseClient", 5f);
+        }
+
+        private void CloseClient()
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
         }
 
         private void ClientConnected(NetworkMessage networkMessage)
