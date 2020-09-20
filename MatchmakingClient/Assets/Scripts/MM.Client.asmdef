@@ -1,0 +1,17 @@
+{
+    "name": "MM.Client",
+    "references": [
+        "GUID:c7daeed7d81254b60a604bd1a595bf8d",
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

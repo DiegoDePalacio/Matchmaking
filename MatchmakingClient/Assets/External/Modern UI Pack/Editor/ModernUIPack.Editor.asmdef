@@ -1,0 +1,17 @@
+{
+    "name": "ModernUIPack.Editor",
+    "references": [
+        "GUID:c7daeed7d81254b60a604bd1a595bf8d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

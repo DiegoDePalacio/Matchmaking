@@ -20,13 +20,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b6064d3-65e5-4e69-acc6-48cc7e779067" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/Assets/Scenes/ClientMain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement/Scripts/PlayerBasicData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement/Scripts/PlayerBasicData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement/Scripts/PlayersData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/DataManagement/Scripts/PlayersData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/External.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ClientNetworkManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/CustomMsgType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ScriptableObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ScriptableObjects/ClientConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/Networking/Scripts/ScriptableObjects/ClientConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Prefabs/PlayerListElement.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/ClientMenuUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/ClientMenuUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/Assets/UI/Scripts/PlayerListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingClient/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config/MatchmakingParams.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Config/MatchmakingParams.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingBigTeams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingBigTeams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/MatchmakingSmallTeams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/MatchmakingParams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/MatchmakingParams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByRating.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/UpdatePlayersRatings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/sample-data-ranked.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/sample-data-ranked.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/Modern UI Pack/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects/ServerConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects/ServerConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ServerMain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/MatchListElement.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/MatchListElement.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/Templates.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,51 +133,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchListElement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/ScriptableObjects/MatchmakingParams.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MatchList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/PlayMode/SimilarityTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/8f/ecfef453/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.1.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/MatchData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/ServerMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataManagement/PlayersRatingsFromJson.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C699AD2-89DE-4D30-9CC1-2BC64289AC75/08/086d1fe0/StringMessage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6AED54D9-C2EF-450A-BFBD-C078696A1223/1d/27169060/BuildTarget.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/a9/0f2cbdb2/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38B19601-63D5-404A-ACB4-C5CCCDE2E18B/c4/6d1cb868/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ServerClient_Setup/Scripts/ServerHUD.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MessageType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Server.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ServerConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Server.cs" />
-        <option value="$PROJECT_DIR$/../MatchmakingClient/Assets/Scripts/UI/PlayerListElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Networking/ScriptableObjects/ServerConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Networking/Server.cs" />
-        <option value="$PROJECT_DIR$/Assets/Networking/ServerNetworkManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElementTemplate.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/Templates/PlayerListElementTemplate.cs" />
-        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" />
-        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersFromJson.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" />
-        <option value="$PROJECT_DIR$/../MatchmakingClient/Assets/Core/Scripts/PlayersManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs" />
-        <option value="$PROJECT_DIR$/Assets/Core/Scripts/ColorGradient.cs" />
-        <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerOriginalData.cs" />
         <option value="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" />
@@ -106,6 +171,33 @@
         <option value="$PROJECT_DIR$/Assets/Networking/Scripts/ServerNetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/SimilarityByCategory.cs" />
         <option value="$PROJECT_DIR$/Assets/Core/Scripts/MatchManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/SimilarityTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/MatchmakingTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/CI/Build.cs" />
+        <option value="$PROJECT_DIR$/Assets/CI/Editor/Build.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/EditMode/Tests.asmdef" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Scripts/MatchManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/PlayMode/ListTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/PlayMode/SimilarityTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Scripts/Templates/ListWithPoolTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/MatchmakingSmallTeams.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/EloRatingParameters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/MatchmakingParams.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/RatingConstants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/SimilarityByCategory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataManagement/MatchData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ServerConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MatchList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/EditMode/MatchmakingTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/CustomMsgType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Templates/ListWithPoolTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataManagement/PlayersRatingsFromJson.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/ServerNetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayerListElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/MatchManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MatchListElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ServerMenuUI.cs" />
       </list>
     </option>
   </component>
@@ -116,8 +208,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.44379562" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.23454988" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3877551" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.20493197" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -130,6 +222,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/BuildTest.app/Contents/MacOS/MatchmakingServer" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BuildTest.app/Contents/MacOS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -139,10 +239,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6823">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="6823" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -163,7 +263,8 @@
       <workItem from="1600245646288" duration="136000" />
       <workItem from="1600247188126" duration="12840000" />
       <workItem from="1600337638156" duration="56113000" />
-      <workItem from="1600488567916" duration="29422000" />
+      <workItem from="1600488567916" duration="31577000" />
+      <workItem from="1600569315414" duration="20564000" />
     </task>
     <servers />
   </component>
@@ -192,82 +293,82 @@
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state width="664" height="1055" key="DebuggerActiveHint/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600528753903" />
-    <state width="2086" height="389" key="GridCell.Tab.0.bottom" timestamp="1600527346613">
+    <state width="2383" height="389" key="GridCell.Tab.0.bottom" timestamp="1600532112882">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346613" />
-    <state width="2086" height="389" key="GridCell.Tab.0.center" timestamp="1600527346610">
+    <state width="2383" height="389" key="GridCell.Tab.0.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112882" />
+    <state width="2383" height="389" key="GridCell.Tab.0.center" timestamp="1600532112881">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346610" />
-    <state width="2086" height="389" key="GridCell.Tab.0.left" timestamp="1600527346609">
+    <state width="2383" height="389" key="GridCell.Tab.0.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112881" />
+    <state width="2383" height="389" key="GridCell.Tab.0.left" timestamp="1600532112881">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346609" />
-    <state width="2086" height="389" key="GridCell.Tab.0.right" timestamp="1600527346612">
+    <state width="2383" height="389" key="GridCell.Tab.0.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112881" />
+    <state width="2383" height="389" key="GridCell.Tab.0.right" timestamp="1600532112882">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.0.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346612" />
-    <state width="2086" height="389" key="GridCell.Tab.1.bottom" timestamp="1600527353712">
+    <state width="2383" height="389" key="GridCell.Tab.0.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112882" />
+    <state width="2383" height="389" key="GridCell.Tab.1.bottom" timestamp="1600532112883">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353712" />
-    <state width="2086" height="389" key="GridCell.Tab.1.center" timestamp="1600527353710">
+    <state width="2383" height="389" key="GridCell.Tab.1.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112883" />
+    <state width="2383" height="389" key="GridCell.Tab.1.center" timestamp="1600532112882">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353710" />
-    <state width="2086" height="389" key="GridCell.Tab.1.left" timestamp="1600527353709">
+    <state width="2383" height="389" key="GridCell.Tab.1.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112882" />
+    <state width="2383" height="389" key="GridCell.Tab.1.left" timestamp="1600532112882">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353709" />
-    <state width="2086" height="389" key="GridCell.Tab.1.right" timestamp="1600527353711">
+    <state width="2383" height="389" key="GridCell.Tab.1.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112882" />
+    <state width="2383" height="389" key="GridCell.Tab.1.right" timestamp="1600532112883">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.1.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527353711" />
-    <state width="2086" height="389" key="GridCell.Tab.2.bottom" timestamp="1600527346336">
+    <state width="2383" height="389" key="GridCell.Tab.1.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112883" />
+    <state width="2383" height="389" key="GridCell.Tab.2.bottom" timestamp="1600532112884">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346336" />
-    <state width="2086" height="389" key="GridCell.Tab.2.center" timestamp="1600527346334">
+    <state width="2383" height="389" key="GridCell.Tab.2.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112884" />
+    <state width="2383" height="389" key="GridCell.Tab.2.center" timestamp="1600532112883">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346334" />
-    <state width="2086" height="389" key="GridCell.Tab.2.left" timestamp="1600527346333">
+    <state width="2383" height="389" key="GridCell.Tab.2.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112883" />
+    <state width="2383" height="389" key="GridCell.Tab.2.left" timestamp="1600532112883">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346333" />
-    <state width="2086" height="389" key="GridCell.Tab.2.right" timestamp="1600527346335">
+    <state width="2383" height="389" key="GridCell.Tab.2.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112883" />
+    <state width="2383" height="389" key="GridCell.Tab.2.right" timestamp="1600532112884">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.2.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346335" />
-    <state width="2086" height="389" key="GridCell.Tab.3.bottom" timestamp="1600527346341">
+    <state width="2383" height="389" key="GridCell.Tab.2.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112884" />
+    <state width="2383" height="389" key="GridCell.Tab.3.bottom" timestamp="1600532112885">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346341" />
-    <state width="2086" height="389" key="GridCell.Tab.3.center" timestamp="1600527346339">
+    <state width="2383" height="389" key="GridCell.Tab.3.bottom/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112885" />
+    <state width="2383" height="389" key="GridCell.Tab.3.center" timestamp="1600532112885">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346339" />
-    <state width="2086" height="389" key="GridCell.Tab.3.left" timestamp="1600527346337">
+    <state width="2383" height="389" key="GridCell.Tab.3.center/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112885" />
+    <state width="2383" height="389" key="GridCell.Tab.3.left" timestamp="1600532112884">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346337" />
-    <state width="2086" height="389" key="GridCell.Tab.3.right" timestamp="1600527346340">
+    <state width="2383" height="389" key="GridCell.Tab.3.left/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112884" />
+    <state width="2383" height="389" key="GridCell.Tab.3.right" timestamp="1600532112885">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state width="2086" height="389" key="GridCell.Tab.3.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600527346340" />
+    <state width="2383" height="389" key="GridCell.Tab.3.right/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600532112885" />
     <state x="2253" y="130" width="1480" height="749" key="VCS.FileHistoryDialog" timestamp="1600339845523">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state x="2253" y="130" width="1480" height="749" key="VCS.FileHistoryDialog/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600339845523" />
-    <state x="2774" y="-36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600433408660">
+    <state x="2774" y="-36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600597319688">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state x="2774" y="-36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600433408660" />
-    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600528041762">
+    <state x="2774" y="-36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600597319688" />
+    <state x="2402" y="191" width="1116" height="732" key="find.popup" timestamp="1600600467350">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
-    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600528041762" />
+    <state x="2402" y="191" width="1116" height="732" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600600467350" />
     <state x="474" y="354" width="732" height="490" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1600261548025" />
   </component>
   <component name="XDebuggerManager">
