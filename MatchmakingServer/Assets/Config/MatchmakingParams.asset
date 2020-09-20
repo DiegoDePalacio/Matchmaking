@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a825709e6d2d4cd4908063bbd501d1e, type: 3}
   m_Name: MatchmakingParams
   m_EditorClassIdentifier: 
-  TeamSize: 2
+  TeamSize: 3
   Matchmaking: 0
-  MinSimilarityToMatchmake: 0.99
+  MinSimilarityToMatchmake: 0.95
   MaxTeamSizeForAccurateMatchmake: 10

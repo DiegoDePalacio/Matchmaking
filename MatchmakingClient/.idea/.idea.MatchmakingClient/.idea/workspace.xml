@@ -20,109 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5033c3af-adf0-445c-9e4f-d2acd5062e53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildScripts/deploy_client_standalone_osx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildScripts/deploy_client_standalone_osx.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildScripts/deploy_client_standalone_windows.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildScripts/deploy_client_standalone_windows.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchmakingClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/PlayersManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataManagement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayerBasicData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataManagement/Scripts/PlayersData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ClientNetworkManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ClientNetworkManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/CustomMsgType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects/ClientConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Networking/Scripts/ScriptableObjects/ClientConfiguration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Prefabs/PlayerListElement.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/ClientMenuUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/ClientMenuUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Scripts/PlayerListElement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClientMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClientMain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/.idea/.idea.MatchmakingServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingBigTeams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingBigTeams.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/MatchmakingSmallTeams.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/EloRatingParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/MatchmakingParams.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/MatchmakingParams.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/ScriptableObjects/RatingConstants.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/SimilarityByCategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/SimilarityByCategory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/SimilarityByRating.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/SimilarityByRating.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/UpdatePlayersRatings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Core/Scripts/UpdatePlayersRatings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/MatchData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/MatchData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayerData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayerData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayersData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayersData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/Scripts/PlayersRatingsFromJson.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/sample-data-ranked.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/DataManagement/sample-data-ranked.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/External/Modern UI Pack/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/CustomMsgType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/CustomMsgType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ScriptableObjects/ServerConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ScriptableObjects/ServerConfiguration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ServerNetworkManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Networking/Scripts/ServerNetworkManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/MatchmakingParams.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Config/MatchmakingParams.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scenes/ServerMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Prefabs/MatchListElement.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Prefabs/MatchListElement.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Prefabs/PlayerListElement.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Prefabs/PlayerListElement.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchListElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/MatchListElement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/PlayerList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/PlayerList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/PlayerListElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/PlayerListElement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/ServerMenuUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/ServerMenuUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/Templates.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/UI/Scripts/Templates/ListWithPoolTemplate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scripts/Core/MatchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scripts/Core/MatchManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scripts/UI/ServerMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/Assets/Scripts/UI/ServerMenuUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatchmakingServer/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../MatchmakingServer/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,13 +84,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Scripts/PlayersManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataManagement/PlayerBasicData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataManagement/PlayersData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayerList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/ScriptableObjects/ClientConfiguration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/CustomMsgType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/ClientNetworkManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayerListElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ClientMenuUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayersManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ClientMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayerListElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayerList.cs" />
       </list>
     </option>
   </component>
@@ -235,7 +146,7 @@
       <workItem from="1600250325459" duration="9408000" />
       <workItem from="1600337719015" duration="25872000" />
       <workItem from="1600500446371" duration="8723000" />
-      <workItem from="1600569562879" duration="5507000" />
+      <workItem from="1600569562879" duration="6686000" />
     </task>
     <servers />
   </component>
@@ -336,11 +247,11 @@
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state x="2633" y="-91" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600594763033" />
-    <state x="2401" y="-123" width="1166" height="820" key="find.popup" timestamp="1600600330847">
+    <state x="2401" y="-123" width="1166" height="820" key="find.popup" timestamp="1600600566570">
       <screen x="1680" y="-302" width="2560" height="1417" />
     </state>
     <state x="473" y="143" width="765" height="548" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1600500503877" />
-    <state x="2401" y="-123" width="1166" height="820" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600600330847" />
+    <state x="2401" y="-123" width="1166" height="820" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.947@1680.-302.2560.1417" timestamp="1600600566570" />
     <state x="855" y="269" width="765" height="493" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1600261539137" />
     <state x="2983" y="65" width="694" height="735" key="find.popup/2543.1138.1920.1057/1680.-302.2560.1417/0.23.1680.949@1680.-302.2560.1417" timestamp="1600091902391" />
   </component>

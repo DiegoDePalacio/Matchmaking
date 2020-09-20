@@ -170,13 +170,13 @@ namespace MM.Server.Core
             {
                 // No clients connected
                 m_ServerMenuUI.WarningText.text = $"{m_ServerMenuUI.WarningSpriteId} Waiting for Client connection...";
-                m_ServerMenuUI.SimilarityRequired.text = string.Empty;
+                m_ServerMenuUI.SimilarityInfoText.text = string.Empty;
             }
             else if (m_ServerMenuUI.TeamSize < 1)
             {
                 // No team size is yet provided
                 m_ServerMenuUI.WarningText.text = $"{m_ServerMenuUI.WarningSpriteId} Please choose a Team Size";
-                m_ServerMenuUI.SimilarityRequired.text = string.Empty;
+                m_ServerMenuUI.SimilarityInfoText.text = string.Empty;
             }
             else if (m_ServerMenuUI.PlayerList.Elements.Count < (m_ServerMenuUI.TeamSize * 2))
             {
@@ -184,7 +184,7 @@ namespace MM.Server.Core
                 m_ServerMenuUI.WarningText.text = string.Empty;
 
                 var missingPlayers = (m_ServerMenuUI.TeamSize * 2) - m_ServerMenuUI.PlayerList.Elements.Count;
-                m_ServerMenuUI.SimilarityRequired.text = $"{m_ServerMenuUI.WarningSpriteId} Not enough Players. \nMissing {missingPlayers}";
+                m_ServerMenuUI.SimilarityInfoText.text = $"{m_ServerMenuUI.WarningSpriteId} Not enough Players. \nMissing {missingPlayers}";
             }
             else
             {
@@ -301,7 +301,7 @@ namespace MM.Server.Core
         
         private void RefreshSimilarityActualMaxText()
         {
-            m_ServerMenuUI.SimilarityRequired.text = $"Current Similarity by {(m_ServerMenuUI.MatchmakingByCategory.isOn ? "Category" : "Rating")}: {m_SimilarityActualMax:P2}";
+            m_ServerMenuUI.SimilarityInfoText.text = $"Current Similarity by {(m_ServerMenuUI.MatchmakingByCategory.isOn ? "Category" : "Rating")}: {m_SimilarityActualMax:P2}";
         }
     }
 }

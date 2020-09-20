@@ -30,8 +30,8 @@ namespace MM.Server.UI
         [SerializeField] private RadialSlider m_SimilaritySlider;
         public RadialSlider SimilaritySlider => m_SimilaritySlider;
 
-        [SerializeField] private TextMeshProUGUI m_SimilarityRequired;
-        public TextMeshProUGUI SimilarityRequired => m_SimilarityRequired;
+        [SerializeField] private TextMeshProUGUI m_SimilarityInfoText;
+        public TextMeshProUGUI SimilarityInfoText => m_SimilarityInfoText;
         
         [SerializeField] private NotificationManager m_NotificationManager;
         public NotificationManager NotificationManager => m_NotificationManager;
@@ -74,7 +74,7 @@ namespace MM.Server.UI
             if (m_SimilaritySlider == null)
                 throw new NullReferenceException("The Similarity Slider on the Server Menu UI was not assigned!");
 
-            if (m_SimilarityRequired == null)
+            if (m_SimilarityInfoText == null)
                 throw new NullReferenceException("The Similarity Required text field on the Server Menu UI was not assigned!");
 
             if (m_NotificationManager == null)
